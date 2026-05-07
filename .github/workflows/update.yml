@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # 🔥 INI YANG KURANG SEBELUMNYA
+  contents: write   # 🔥 TARUH DI SINI (LEVEL ATAS jobs)
 
 jobs:
   build:
@@ -29,5 +29,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@github.com"
           git add README.md
-          git commit -m "auto: update observer" || echo "no changes"
+          git commit -m "auto update" || echo "no changes"
           git push
