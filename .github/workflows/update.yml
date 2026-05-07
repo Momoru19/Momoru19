@@ -23,10 +23,10 @@ jobs:
       - name: Run generator
         run: python generate.py
 
-      - name: Commit & Push
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@github.com"
           git add README.md
-          git diff --cached --quiet && echo "no changes" || git commit -m "👁 observer update: $(date '+%H:%M')"
+          git diff --cached --quiet && echo "no changes" || git commit -m "observer update $(date '+%H:%M')"
           git push
