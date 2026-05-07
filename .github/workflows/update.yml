@@ -1,0 +1,38 @@
+
+---
+
+# ⚙️ 3. GITHUB ACTION (FIXED + NO ERROR)
+
+📄 `.github/workflows/update.yml`
+
+```yaml id="w1"
+name: Auto README Update
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # tiap 30 menit
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate README
+        run: python generate.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "auto: update README" || echo "no changes"
+          git push
