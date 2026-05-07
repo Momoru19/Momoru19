@@ -5,6 +5,9 @@ on:
     - cron: "*/30 * * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write   # 🔥 INI YANG KURANG SEBELUMNYA
+
 jobs:
   build:
     runs-on: ubuntu-latest
