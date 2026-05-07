@@ -1,16 +1,8 @@
-
----
-
-# ⚙️ 3. GITHUB ACTION (FIXED + NO ERROR)
-
-📄 `.github/workflows/update.yml`
-
-```yaml id="w1"
-name: Auto README Update
+name: Observer Auto Update
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # tiap 30 menit
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -26,13 +18,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate README
+      - name: Run generator
         run: python generate.py
 
-      - name: Commit changes
+      - name: Commit & Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@github.com"
           git add README.md
-          git commit -m "auto: update README" || echo "no changes"
+          git commit -m "auto: update observer" || echo "no changes"
           git push
