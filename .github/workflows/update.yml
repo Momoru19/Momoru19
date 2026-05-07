@@ -1,0 +1,30 @@
+name: Auto Update Profile
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # tiap 6 jam
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run generator
+        run: python generate.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "chore: auto update profile" || exit 0
+          git push
