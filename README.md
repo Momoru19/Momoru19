@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-05-08 21:51                     |
-  |   origin  :  /dev/null                            |
+  |   status  :  evening crawl                        |
+  |   updated :  2026-05-08 22:47                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:51:56] INIT  process 1110 attached
-[21:51:56] INFO  uptime 279h 10m
-[21:51:56] SCAN  193.93.104.175 found
-[21:51:56] WARN  anomaly detected
-[21:51:56] EXEC  module shadow.py loaded
+[22:47:05] INFO  uptime 619h 42m
+[22:47:05] EXEC  module shadow.py loaded
+[22:47:05] SCAN  63.141.0.217 found
+[22:47:05] INIT  process 5603 attached
+[22:47:05] WARN  anomaly detected
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  91%
-  network recon          ████████░░  88%
-  staying invisible      █████████░  92%
-  trust no one           █████████░  95%
-  python                 █████████░  97%
-  existential dread      █████████░  93%
+  social engineering     ███████░░░  75%
+  network recon          ███████░░░  72%
+  staying invisible      █████████░  98%
+  trust no one           █████████░  96%
+  python                 ████████░░  80%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-08 21:51 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-08 22:47 · auto-updated every 30 min</sub>
