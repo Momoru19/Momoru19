@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-05-10 16:29                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  background process running           |
+  |   updated :  2026-05-10 17:29                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:29:37] SCAN  35.1.194.108 found
-[16:29:37] EXEC  module shadow.py loaded
-[16:29:37] WARN  packet loss 0.3%
-[16:29:37] INFO  uptime 967h 16m
-[16:29:37] INIT  process 4977 attached
+[17:29:59] SCAN  203.171.96.68 found
+[17:29:59] INIT  process 1292 attached
+[17:29:59] INFO  uptime 330h 41m
+[17:29:59] EXEC  module recon.sh loaded
+[17:29:59] WARN  signal noise +12dB
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  87%
-  network recon          ███████░░░  77%
-  staying invisible      ████████░░  89%
-  trust no one           █████████░  94%
-  python                 ████████░░  82%
-  existential dread      █████████░  90%
+  social engineering     ██████░░░░  62%
+  network recon          ████████░░  88%
+  staying invisible      █████████░  96%
+  trust no one           ████████░░  87%
+  python                 ████████░░  85%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-10 16:29 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-10 17:29 · auto-updated every 30 min</sub>
