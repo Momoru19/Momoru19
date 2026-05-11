@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-05-11 21:47                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-05-11 22:46                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:47:33] SCAN  122.217.38.108 found
-[21:47:33] EXEC  module nullify.c loaded
-[21:47:33] WARN  packet loss 0.3%
-[21:47:33] INIT  process 1439 attached
-[21:47:33] INFO  uptime 226h 40m
+[22:46:15] INIT  process 3103 attached
+[22:46:15] INFO  uptime 423h 2m
+[22:46:15] EXEC  module trace.go loaded
+[22:46:15] WARN  signal noise +12dB
+[22:46:15] SCAN  105.145.218.150 found
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  81%
-  network recon          ███████░░░  71%
-  staying invisible      ████████░░  81%
-  trust no one           ████████░░  86%
+  social engineering     █████████░  96%
+  network recon          ███████░░░  79%
+  staying invisible      ████████░░  82%
+  trust no one           █████████░  91%
   python                 ███████░░░  75%
-  existential dread      ██████████  100%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-11 21:47 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-11 22:46 · auto-updated every 30 min</sub>
