@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-05-14 17:43                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  evening crawl                        |
+  |   updated :  2026-05-14 19:28                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:43:03] INIT  process 6746 attached
-[17:43:03] SCAN  100.75.227.229 found
-[17:43:03] EXEC  module trace.go loaded
-[17:43:03] INFO  uptime 155h 8m
-[17:43:03] WARN  packet loss 0.3%
+[19:28:41] INFO  uptime 637h 21m
+[19:28:41] INIT  process 9242 attached
+[19:28:41] EXEC  module shadow.py loaded
+[19:28:41] WARN  signal noise +12dB
+[19:28:41] SCAN  43.112.250.8 found
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Is any of it real?"
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  80%
-  network recon          █████████░  97%
-  staying invisible      ████████░░  87%
-  trust no one           █████████░  90%
-  python                 █████████░  95%
+  social engineering     ██████░░░░  69%
+  network recon          ███████░░░  75%
+  staying invisible      █████████░  95%
+  trust no one           ████████░░  87%
+  python                 ███████░░░  77%
   existential dread      █████████░  95%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-14 17:43 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-14 19:28 · auto-updated every 30 min</sub>
