@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-05-15 14:59                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  tracking enabled                     |
+  |   updated :  2026-05-15 16:53                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[14:59:51] EXEC  module recon.sh loaded
-[14:59:51] INFO  uptime 313h 59m
-[14:59:51] WARN  packet loss 0.3%
-[14:59:51] INIT  process 8269 attached
-[14:59:51] SCAN  163.97.206.5 found
+[16:53:37] EXEC  module recon.sh loaded
+[16:53:37] INFO  uptime 79h 59m
+[16:53:37] SCAN  230.200.229.212 found
+[16:53:37] INIT  process 2921 attached
+[16:53:37] WARN  signal noise +12dB
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "Give a man a bank and he can rob the world."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  74%
-  network recon          ███████░░░  73%
-  staying invisible      █████████░  99%
-  trust no one           █████████░  95%
-  python                 █████████░  93%
-  existential dread      █████████░  99%
+  social engineering     █████████░  93%
+  network recon          ███████░░░  70%
+  staying invisible      █████████░  97%
+  trust no one           █████████░  91%
+  python                 ███████░░░  77%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-15 14:59 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-15 16:53 · auto-updated every 30 min</sub>
