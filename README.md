@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  morning recon                        |
-  |   updated :  2026-05-15 10:42                     |
+  |   status  :  background process running           |
+  |   updated :  2026-05-15 12:27                     |
   |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:42:48] EXEC  module trace.go loaded
-[10:42:48] SCAN  243.185.233.213 found
-[10:42:48] INIT  process 4368 attached
-[10:42:48] INFO  uptime 474h 57m
-[10:42:48] WARN  anomaly detected
+[12:27:56] SCAN  53.181.47.202 found
+[12:27:56] INIT  process 3793 attached
+[12:27:56] WARN  packet loss 0.3%
+[12:27:56] EXEC  module recon.sh loaded
+[12:27:56] INFO  uptime 903h 0m
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  71%
-  network recon          ███████░░░  71%
-  staying invisible      ████████░░  84%
-  trust no one           █████████░  91%
-  python                 █████████░  96%
-  existential dread      █████████░  93%
+  social engineering     ███████░░░  79%
+  network recon          ███████░░░  75%
+  staying invisible      ████████░░  88%
+  trust no one           █████████░  92%
+  python                 ████████░░  82%
+  existential dread      █████████░  90%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-15 10:42 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-15 12:27 · auto-updated every 30 min</sub>
