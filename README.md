@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-05-15 12:27                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  surveillance mode                    |
+  |   updated :  2026-05-15 14:59                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[12:27:56] SCAN  53.181.47.202 found
-[12:27:56] INIT  process 3793 attached
-[12:27:56] WARN  packet loss 0.3%
-[12:27:56] EXEC  module recon.sh loaded
-[12:27:56] INFO  uptime 903h 0m
+[14:59:51] EXEC  module recon.sh loaded
+[14:59:51] INFO  uptime 313h 59m
+[14:59:51] WARN  packet loss 0.3%
+[14:59:51] INIT  process 8269 attached
+[14:59:51] SCAN  163.97.206.5 found
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  79%
-  network recon          ███████░░░  75%
-  staying invisible      ████████░░  88%
-  trust no one           █████████░  92%
-  python                 ████████░░  82%
-  existential dread      █████████░  90%
+  social engineering     ███████░░░  74%
+  network recon          ███████░░░  73%
+  staying invisible      █████████░  99%
+  trust no one           █████████░  95%
+  python                 █████████░  93%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-15 12:27 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-15 14:59 · auto-updated every 30 min</sub>
