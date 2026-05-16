@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  booting identity matrix              |
-  |   updated :  2026-05-16 10:43                     |
-  |   origin  :  /dev/null                            |
+  |   status  :  signal weak                          |
+  |   updated :  2026-05-16 11:43                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:43:15] INFO  uptime 323h 19m
-[10:43:15] INIT  process 8072 attached
-[10:43:15] SCAN  152.199.11.249 found
-[10:43:15] EXEC  module recon.sh loaded
-[10:43:15] WARN  unknown handshake
+[11:43:38] INFO  uptime 107h 23m
+[11:43:38] INIT  process 5251 attached
+[11:43:38] EXEC  module recon.sh loaded
+[11:43:38] WARN  packet loss 0.3%
+[11:43:38] SCAN  50.196.225.28 found
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  96%
-  network recon          █████████░  97%
-  staying invisible      ████████░░  85%
+  social engineering     █████████░  95%
+  network recon          █████████░  99%
+  staying invisible      █████████░  94%
   trust no one           ████████░░  87%
-  python                 █████████░  98%
-  existential dread      █████████░  95%
+  python                 ███████░░░  78%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-16 10:43 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-16 11:43 · auto-updated every 30 min</sub>
