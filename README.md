@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-05-16 19:58                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-05-16 20:47                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:58:04] INFO  uptime 754h 40m
-[19:58:04] WARN  packet loss 0.3%
-[19:58:04] INIT  process 1903 attached
-[19:58:04] SCAN  187.5.92.114 found
-[19:58:04] EXEC  module shadow.py loaded
+[20:47:27] INIT  process 2473 attached
+[20:47:27] INFO  uptime 805h 54m
+[20:47:27] SCAN  6.121.29.226 found
+[20:47:27] EXEC  module trace.go loaded
+[20:47:27] WARN  unknown handshake
 ```
 
 ---
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  91%
-  network recon          ███████░░░  70%
+  social engineering     ████████░░  84%
+  network recon          ████████░░  81%
   staying invisible      █████████░  98%
   trust no one           █████████░  96%
-  python                 ████████░░  83%
+  python                 ███████░░░  75%
   existential dread      █████████░  99%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-16 19:58 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-16 20:47 · auto-updated every 30 min</sub>
