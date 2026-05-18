@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  morning recon                        |
-  |   updated :  2026-05-18 09:42                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  observer active                      |
+  |   updated :  2026-05-18 13:00                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[09:42:09] WARN  unknown handshake
-[09:42:09] INFO  uptime 252h 6m
-[09:42:09] INIT  process 8715 attached
-[09:42:09] SCAN  124.125.60.159 found
-[09:42:09] EXEC  module recon.sh loaded
+[13:00:55] SCAN  35.106.222.97 found
+[13:00:55] INIT  process 8523 attached
+[13:00:55] EXEC  module recon.sh loaded
+[13:00:55] WARN  signal noise +12dB
+[13:00:55] INFO  uptime 591h 38m
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  99%
-  network recon          █████████░  99%
-  staying invisible      ████████░░  87%
-  trust no one           █████████░  93%
-  python                 ███████░░░  78%
-  existential dread      █████████░  91%
+  social engineering     ████████░░  85%
+  network recon          ████████░░  84%
+  staying invisible      ████████░░  84%
+  trust no one           ████████░░  89%
+  python                 ████████░░  89%
+  existential dread      █████████░  92%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-18 09:42 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-18 13:00 · auto-updated every 30 min</sub>
