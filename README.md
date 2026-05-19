@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  observer active                      |
-  |   updated :  2026-05-19 16:45                     |
-  |   origin  :  /dev/null                            |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-05-19 18:54                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:45:51] WARN  signal noise +12dB
-[16:45:51] EXEC  module trace.go loaded
-[16:45:51] SCAN  245.45.211.109 found
-[16:45:51] INIT  process 2849 attached
-[16:45:51] INFO  uptime 578h 52m
+[18:54:27] INIT  process 8677 attached
+[18:54:27] SCAN  117.140.184.114 found
+[18:54:27] WARN  unknown handshake
+[18:54:27] EXEC  module shadow.py loaded
+[18:54:27] INFO  uptime 589h 5m
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "Control is an illusion."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  88%
-  network recon          ████████░░  80%
-  staying invisible      ████████░░  86%
-  trust no one           █████████░  98%
-  python                 ████████░░  87%
+  social engineering     ██████░░░░  66%
+  network recon          ████████░░  88%
+  staying invisible      ████████░░  84%
+  trust no one           █████████░  93%
+  python                 ███████░░░  76%
   existential dread      █████████░  93%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-19 16:45 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-19 18:54 · auto-updated every 30 min</sub>
