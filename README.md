@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal weak                          |
-  |   updated :  2026-05-20 11:25                     |
+  |   status  :  surveillance mode                    |
+  |   updated :  2026-05-20 14:01                     |
   |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[11:25:10] INFO  uptime 165h 6m
-[11:25:10] EXEC  module recon.sh loaded
-[11:25:10] SCAN  26.116.39.189 found
-[11:25:10] WARN  anomaly detected
-[11:25:10] INIT  process 1897 attached
+[14:01:51] EXEC  module trace.go loaded
+[14:01:51] WARN  unknown handshake
+[14:01:51] SCAN  152.117.24.106 found
+[14:01:51] INIT  process 5807 attached
+[14:01:51] INFO  uptime 439h 58m
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  86%
-  network recon          ███████░░░  75%
-  staying invisible      █████████░  93%
-  trust no one           █████████░  91%
-  python                 ████████░░  82%
+  social engineering     ██████░░░░  60%
+  network recon          ████████░░  87%
+  staying invisible      ████████░░  82%
+  trust no one           ████████░░  87%
+  python                 █████████░  99%
   existential dread      █████████░  94%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-20 11:25 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-20 14:01 · auto-updated every 30 min</sub>
