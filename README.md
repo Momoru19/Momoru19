@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  system warming up                    |
-  |   updated :  2026-05-21 06:44                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  morning recon                        |
+  |   updated :  2026-05-21 10:33                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[06:44:25] WARN  unknown handshake
-[06:44:25] EXEC  module shadow.py loaded
-[06:44:25] INIT  process 6660 attached
-[06:44:25] SCAN  9.69.103.123 found
-[06:44:25] INFO  uptime 430h 8m
+[10:33:04] INIT  process 2077 attached
+[10:33:04] INFO  uptime 751h 29m
+[10:33:04] EXEC  module shadow.py loaded
+[10:33:04] SCAN  245.3.95.131 found
+[10:33:04] WARN  signal noise +12dB
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  64%
-  network recon          ████████░░  85%
-  staying invisible      █████████░  99%
-  trust no one           █████████░  98%
-  python                 ████████░░  83%
-  existential dread      █████████░  92%
+  social engineering     █████████░  91%
+  network recon          █████████░  97%
+  staying invisible      █████████░  93%
+  trust no one           ████████░░  86%
+  python                 ███████░░░  79%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-21 06:44 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-21 10:33 · auto-updated every 30 min</sub>
