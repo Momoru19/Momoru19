@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-05-21 16:37                     |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-05-21 18:54                     |
   |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:37:43] INIT  process 1891 attached
-[16:37:43] SCAN  196.234.160.40 found
-[16:37:43] WARN  packet loss 0.3%
-[16:37:43] EXEC  module nullify.c loaded
-[16:37:43] INFO  uptime 492h 36m
+[18:54:07] WARN  unknown handshake
+[18:54:07] INFO  uptime 182h 34m
+[18:54:07] EXEC  module recon.sh loaded
+[18:54:07] SCAN  92.70.70.111 found
+[18:54:07] INIT  process 3070 attached
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  93%
-  network recon          ████████░░  85%
-  staying invisible      ████████░░  82%
-  trust no one           █████████░  91%
+  social engineering     ██████░░░░  61%
+  network recon          ████████░░  81%
+  staying invisible      ████████░░  85%
+  trust no one           ████████░░  88%
   python                 █████████░  96%
-  existential dread      █████████░  96%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-21 16:37 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-21 18:54 · auto-updated every 30 min</sub>
