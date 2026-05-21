@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-05-20 23:45                     |
+  |   status  :  ghost mode: ON                       |
+  |   updated :  2026-05-21 02:32                     |
   |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:45:41] SCAN  90.210.86.115 found
-[23:45:41] EXEC  module nullify.c loaded
-[23:45:41] INIT  process 1053 attached
-[23:45:41] WARN  signal noise +12dB
-[23:45:41] INFO  uptime 94h 6m
+[02:32:26] INIT  process 8058 attached
+[02:32:26] SCAN  176.24.203.61 found
+[02:32:26] EXEC  module nullify.c loaded
+[02:32:26] WARN  anomaly detected
+[02:32:26] INFO  uptime 11h 12m
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  84%
+  social engineering     █████████░  94%
   network recon          ███████░░░  78%
-  staying invisible      █████████░  98%
-  trust no one           █████████░  97%
+  staying invisible      ████████░░  85%
+  trust no one           █████████░  90%
   python                 ███████░░░  79%
-  existential dread      █████████░  90%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-20 23:45 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-21 02:32 · auto-updated every 30 min</sub>
