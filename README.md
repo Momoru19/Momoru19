@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-05-21 20:46                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-05-21 22:13                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:46:53] INFO  uptime 985h 58m
-[20:46:53] WARN  anomaly detected
-[20:46:53] INIT  process 7421 attached
-[20:46:53] EXEC  module shadow.py loaded
-[20:46:53] SCAN  78.89.163.122 found
+[22:13:16] EXEC  module trace.go loaded
+[22:13:16] INFO  uptime 968h 31m
+[22:13:16] WARN  signal noise +12dB
+[22:13:16] SCAN  67.229.205.132 found
+[22:13:16] INIT  process 1479 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  76%
-  network recon          ███████░░░  72%
-  staying invisible      ████████░░  89%
-  trust no one           █████████░  94%
-  python                 ███████░░░  75%
-  existential dread      █████████░  95%
+  social engineering     █████████░  92%
+  network recon          ████████░░  82%
+  staying invisible      █████████░  93%
+  trust no one           █████████░  96%
+  python                 █████████░  93%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-21 20:46 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-21 22:13 · auto-updated every 30 min</sub>
