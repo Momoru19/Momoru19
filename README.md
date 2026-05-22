@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-05-22 19:24                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-05-22 20:52                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:24:26] SCAN  192.195.93.92 found
-[19:24:26] WARN  unknown handshake
-[19:24:26] EXEC  module shadow.py loaded
-[19:24:26] INFO  uptime 459h 35m
-[19:24:26] INIT  process 8087 attached
+[20:52:41] WARN  unknown handshake
+[20:52:41] INFO  uptime 439h 47m
+[20:52:41] EXEC  module recon.sh loaded
+[20:52:41] SCAN  198.153.236.238 found
+[20:52:41] INIT  process 1419 attached
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  60%
-  network recon          ████████░░  85%
-  staying invisible      █████████░  92%
-  trust no one           █████████░  94%
-  python                 ████████░░  84%
-  existential dread      █████████░  91%
+  social engineering     ████████░░  82%
+  network recon          ███████░░░  71%
+  staying invisible      ████████░░  81%
+  trust no one           ████████░░  86%
+  python                 ████████░░  85%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-22 19:24 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-22 20:52 · auto-updated every 30 min</sub>
