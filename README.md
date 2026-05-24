@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  evening crawl                        |
-  |   updated :  2026-05-24 20:29                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   updated :  2026-05-24 21:30                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:29:37] WARN  signal noise +12dB
-[20:29:37] INIT  process 8901 attached
-[20:29:37] EXEC  module nullify.c loaded
-[20:29:37] INFO  uptime 456h 34m
-[20:29:37] SCAN  123.227.27.237 found
+[21:30:16] EXEC  module trace.go loaded
+[21:30:16] WARN  unknown handshake
+[21:30:16] INFO  uptime 908h 46m
+[21:30:16] SCAN  239.162.165.51 found
+[21:30:16] INIT  process 2603 attached
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  78%
-  network recon          █████████░  95%
-  staying invisible      █████████░  92%
-  trust no one           █████████░  95%
-  python                 ███████░░░  79%
-  existential dread      █████████░  98%
+  social engineering     █████████░  98%
+  network recon          █████████░  91%
+  staying invisible      ████████░░  86%
+  trust no one           █████████░  90%
+  python                 ████████░░  84%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-24 20:29 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-24 21:30 · auto-updated every 30 min</sub>
