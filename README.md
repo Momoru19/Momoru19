@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  sleeping process detected            |
-  |   updated :  2026-05-24 01:27                     |
+  |   updated :  2026-05-24 05:35                     |
   |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[01:27:53] SCAN  254.190.62.227 found
-[01:27:53] WARN  signal noise +12dB
-[01:27:53] EXEC  module recon.sh loaded
-[01:27:53] INFO  uptime 965h 27m
-[01:27:53] INIT  process 7633 attached
+[05:35:06] WARN  packet loss 0.3%
+[05:35:06] SCAN  239.41.78.108 found
+[05:35:06] EXEC  module nullify.c loaded
+[05:35:06] INFO  uptime 110h 2m
+[05:35:06] INIT  process 3447 attached
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Is any of it real?"
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  91%
-  network recon          ████████░░  87%
-  staying invisible      █████████░  94%
-  trust no one           █████████░  91%
-  python                 ████████░░  89%
+  social engineering     █████████░  90%
+  network recon          ███████░░░  74%
+  staying invisible      █████████░  91%
+  trust no one           ████████░░  86%
+  python                 ███████░░░  77%
   existential dread      ██████████  100%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-24 01:27 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-24 05:35 · auto-updated every 30 min</sub>
