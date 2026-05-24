@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-05-24 17:54                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-05-24 19:04                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:54:20] WARN  packet loss 0.3%
-[17:54:20] INIT  process 2372 attached
-[17:54:20] INFO  uptime 430h 39m
-[17:54:20] EXEC  module recon.sh loaded
-[17:54:20] SCAN  144.39.248.35 found
+[19:04:00] INIT  process 4026 attached
+[19:04:00] SCAN  85.253.230.227 found
+[19:04:00] EXEC  module shadow.py loaded
+[19:04:00] WARN  unknown handshake
+[19:04:00] INFO  uptime 869h 6m
 ```
 
 ---
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  70%
-  network recon          ███████░░░  72%
-  staying invisible      █████████░  91%
-  trust no one           █████████░  92%
-  python                 █████████░  99%
+  social engineering     ████████░░  85%
+  network recon          █████████░  97%
+  staying invisible      ████████░░  88%
+  trust no one           █████████░  96%
+  python                 █████████░  95%
   existential dread      ██████████  100%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-24 17:54 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-24 19:04 · auto-updated every 30 min</sub>
