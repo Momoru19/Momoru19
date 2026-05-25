@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal unstable                      |
-  |   updated :  2026-05-25 22:51                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  evening crawl                        |
+  |   updated :  2026-05-25 23:57                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[22:51:56] WARN  signal noise +12dB
-[22:51:56] EXEC  module trace.go loaded
-[22:51:56] INFO  uptime 188h 6m
-[22:51:56] SCAN  34.108.84.204 found
-[22:51:56] INIT  process 9752 attached
+[23:57:51] SCAN  76.109.129.65 found
+[23:57:51] EXEC  module trace.go loaded
+[23:57:51] INIT  process 8728 attached
+[23:57:51] INFO  uptime 135h 7m
+[23:57:51] WARN  unknown handshake
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  74%
-  network recon          ████████░░  89%
-  staying invisible      █████████░  96%
-  trust no one           ████████░░  85%
-  python                 ████████░░  85%
-  existential dread      ██████████  100%
+  social engineering     ██████░░░░  60%
+  network recon          ███████░░░  74%
+  staying invisible      ████████░░  88%
+  trust no one           █████████░  91%
+  python                 ███████░░░  75%
+  existential dread      █████████░  90%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-25 22:51 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-25 23:57 · auto-updated every 30 min</sub>
