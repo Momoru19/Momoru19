@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  booting identity matrix              |
-  |   updated :  2026-05-25 07:04                     |
-  |   origin  :  /dev/null                            |
+  |   updated :  2026-05-25 11:33                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[07:04:57] INFO  uptime 228h 49m
-[07:04:57] WARN  packet loss 0.3%
-[07:04:57] SCAN  121.99.182.140 found
-[07:04:57] INIT  process 5472 attached
-[07:04:57] EXEC  module trace.go loaded
+[11:33:17] SCAN  159.14.144.243 found
+[11:33:17] WARN  packet loss 0.3%
+[11:33:17] INIT  process 9448 attached
+[11:33:17] EXEC  module shadow.py loaded
+[11:33:17] INFO  uptime 297h 2m
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  76%
-  network recon          ███████░░░  74%
-  staying invisible      ████████░░  82%
-  trust no one           ████████░░  89%
-  python                 ████████░░  85%
-  existential dread      █████████░  98%
+  social engineering     ██████░░░░  68%
+  network recon          ████████░░  80%
+  staying invisible      ████████░░  85%
+  trust no one           ████████░░  85%
+  python                 ████████░░  88%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-25 07:04 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-25 11:33 · auto-updated every 30 min</sub>
