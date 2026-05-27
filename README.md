@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-05-27 17:56                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  evening crawl                        |
+  |   updated :  2026-05-27 20:08                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:56:14] INFO  uptime 282h 41m
-[17:56:14] SCAN  150.229.85.24 found
-[17:56:14] EXEC  module trace.go loaded
-[17:56:14] WARN  signal noise +12dB
-[17:56:14] INIT  process 3772 attached
+[20:08:01] EXEC  module shadow.py loaded
+[20:08:01] INIT  process 1058 attached
+[20:08:01] SCAN  59.88.236.248 found
+[20:08:01] WARN  packet loss 0.3%
+[20:08:01] INFO  uptime 665h 57m
 ```
 
 ---
@@ -41,11 +41,11 @@ $ tail -f /var/log/momoru.log
  SKILL MATRIX
  -----------------------------------------------
   social engineering     ██████░░░░  66%
-  network recon          ███████░░░  70%
-  staying invisible      ████████░░  83%
-  trust no one           █████████░  91%
-  python                 ███████░░░  79%
-  existential dread      █████████░  94%
+  network recon          ███████░░░  71%
+  staying invisible      ████████░░  81%
+  trust no one           ████████░░  86%
+  python                 ████████░░  88%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-27 17:56 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-27 20:08 · auto-updated every 30 min</sub>
