@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  deep scan in progress                |
-  |   updated :  2026-05-28 02:14                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  system warming up                    |
+  |   updated :  2026-05-28 06:35                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[02:14:20] SCAN  66.197.163.19 found
-[02:14:20] WARN  unknown handshake
-[02:14:20] INIT  process 8044 attached
-[02:14:20] EXEC  module trace.go loaded
-[02:14:20] INFO  uptime 327h 7m
+[06:35:14] EXEC  module trace.go loaded
+[06:35:14] SCAN  206.216.45.121 found
+[06:35:14] INFO  uptime 431h 25m
+[06:35:14] INIT  process 4811 attached
+[06:35:14] WARN  packet loss 0.3%
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  83%
-  network recon          █████████░  94%
-  staying invisible      █████████░  98%
-  trust no one           █████████░  97%
-  python                 ████████░░  87%
-  existential dread      █████████░  92%
+  social engineering     █████████░  91%
+  network recon          ████████░░  89%
+  staying invisible      █████████░  93%
+  trust no one           █████████░  90%
+  python                 █████████░  92%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-28 02:14 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-28 06:35 · auto-updated every 30 min</sub>
