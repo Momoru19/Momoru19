@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  signal unstable                      |
-  |   updated :  2026-05-30 20:03                     |
-  |   origin  :  /dev/null                            |
+  |   updated :  2026-05-30 21:30                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:03:13] WARN  signal noise +12dB
-[20:03:13] INIT  process 7627 attached
-[20:03:13] SCAN  237.45.232.120 found
-[20:03:13] EXEC  module recon.sh loaded
-[20:03:13] INFO  uptime 357h 52m
+[21:30:41] SCAN  30.158.102.164 found
+[21:30:41] WARN  unknown handshake
+[21:30:41] INFO  uptime 170h 23m
+[21:30:41] INIT  process 1449 attached
+[21:30:41] EXEC  module nullify.c loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  87%
-  network recon          ███████░░░  70%
-  staying invisible      █████████░  95%
-  trust no one           █████████░  99%
+  social engineering     ███████░░░  70%
+  network recon          █████████░  97%
+  staying invisible      ████████░░  87%
+  trust no one           █████████░  91%
   python                 ███████░░░  75%
-  existential dread      █████████░  98%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-30 20:03 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-30 21:30 · auto-updated every 30 min</sub>
