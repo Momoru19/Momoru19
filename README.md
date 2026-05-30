@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-05-29 23:05                     |
+  |   status  :  sleeping process detected            |
+  |   updated :  2026-05-30 01:25                     |
   |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:05:07] INIT  process 2968 attached
-[23:05:07] SCAN  7.53.83.82 found
-[23:05:07] WARN  packet loss 0.3%
-[23:05:07] EXEC  module nullify.c loaded
-[23:05:07] INFO  uptime 268h 47m
+[01:25:50] EXEC  module nullify.c loaded
+[01:25:50] WARN  anomaly detected
+[01:25:50] INFO  uptime 573h 5m
+[01:25:50] INIT  process 7925 attached
+[01:25:50] SCAN  203.231.196.106 found
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  71%
-  network recon          ████████░░  87%
-  staying invisible      █████████░  94%
-  trust no one           █████████░  98%
-  python                 █████████░  91%
-  existential dread      █████████░  97%
+  social engineering     ███████░░░  72%
+  network recon          ███████░░░  79%
+  staying invisible      █████████░  95%
+  trust no one           ████████░░  87%
+  python                 █████████░  92%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-05-29 23:05 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-05-30 01:25 · auto-updated every 30 min</sub>
