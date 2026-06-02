@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  ghost mode: ON                       |
-  |   updated :  2026-06-02 00:07                     |
-  |   origin  :  your blind spot                      |
+  |   updated :  2026-06-02 05:07                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[00:07:23] EXEC  module nullify.c loaded
-[00:07:23] INFO  uptime 56h 11m
-[00:07:23] WARN  anomaly detected
-[00:07:23] SCAN  238.23.218.109 found
-[00:07:23] INIT  process 1408 attached
+[05:07:48] WARN  unknown handshake
+[05:07:48] EXEC  module shadow.py loaded
+[05:07:48] INIT  process 7360 attached
+[05:07:48] INFO  uptime 476h 32m
+[05:07:48] SCAN  34.150.171.238 found
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  61%
-  network recon          ████████░░  86%
-  staying invisible      █████████░  92%
-  trust no one           █████████░  96%
-  python                 █████████░  98%
-  existential dread      █████████░  92%
+  social engineering     ██████░░░░  62%
+  network recon          ███████░░░  74%
+  staying invisible      █████████░  94%
+  trust no one           █████████░  92%
+  python                 ████████░░  87%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-02 00:07 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-02 05:07 · auto-updated every 30 min</sub>
