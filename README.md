@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-06-04 19:14                     |
+  |   updated :  2026-06-04 21:08                     |
   |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:14:10] INFO  uptime 779h 39m
-[19:14:10] EXEC  module trace.go loaded
-[19:14:10] SCAN  81.145.41.229 found
-[19:14:10] INIT  process 7724 attached
-[19:14:10] WARN  unknown handshake
+[21:08:39] INIT  process 5180 attached
+[21:08:39] EXEC  module shadow.py loaded
+[21:08:39] SCAN  143.60.226.99 found
+[21:08:39] INFO  uptime 856h 30m
+[21:08:39] WARN  unknown handshake
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  81%
-  network recon          █████████░  93%
-  staying invisible      ████████░░  84%
+  social engineering     █████████░  96%
+  network recon          █████████░  96%
+  staying invisible      █████████░  96%
   trust no one           ████████░░  86%
-  python                 ████████░░  83%
+  python                 █████████░  92%
   existential dread      █████████░  92%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-04 19:14 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-04 21:08 · auto-updated every 30 min</sub>
