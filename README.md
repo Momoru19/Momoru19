@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-06-06 20:04                     |
+  |   updated :  2026-06-06 21:34                     |
   |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:04:49] WARN  anomaly detected
-[20:04:49] SCAN  97.94.194.24 found
-[20:04:49] INIT  process 3892 attached
-[20:04:49] INFO  uptime 961h 34m
-[20:04:49] EXEC  module trace.go loaded
+[21:34:49] WARN  unknown handshake
+[21:34:49] INFO  uptime 66h 10m
+[21:34:49] INIT  process 3112 attached
+[21:34:49] EXEC  module shadow.py loaded
+[21:34:49] SCAN  97.5.36.232 found
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  89%
-  network recon          ███████░░░  76%
-  staying invisible      █████████░  98%
-  trust no one           ████████░░  85%
-  python                 █████████░  91%
-  existential dread      █████████░  92%
+  social engineering     █████████░  95%
+  network recon          ████████░░  88%
+  staying invisible      ████████░░  81%
+  trust no one           ████████░░  89%
+  python                 █████████░  96%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-06 20:04 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-06 21:34 · auto-updated every 30 min</sub>
