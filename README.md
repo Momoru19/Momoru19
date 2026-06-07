@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  system warming up                    |
-  |   updated :  2026-06-07 10:39                     |
-  |   origin  :  /dev/null                            |
+  |   status  :  observer active                      |
+  |   updated :  2026-06-07 12:16                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:39:10] INFO  uptime 143h 7m
-[10:39:10] INIT  process 5124 attached
-[10:39:10] WARN  packet loss 0.3%
-[10:39:10] SCAN  241.179.58.79 found
-[10:39:10] EXEC  module shadow.py loaded
+[12:16:16] WARN  unknown handshake
+[12:16:16] INIT  process 8388 attached
+[12:16:16] INFO  uptime 726h 17m
+[12:16:16] EXEC  module trace.go loaded
+[12:16:16] SCAN  132.251.246.133 found
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  64%
-  network recon          ███████░░░  71%
-  staying invisible      ████████░░  88%
-  trust no one           ████████░░  85%
-  python                 ████████░░  80%
-  existential dread      █████████░  97%
+  social engineering     ████████░░  88%
+  network recon          ████████░░  82%
+  staying invisible      █████████░  98%
+  trust no one           ████████░░  87%
+  python                 █████████░  94%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-07 10:39 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-07 12:16 · auto-updated every 30 min</sub>
