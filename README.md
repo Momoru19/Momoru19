@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-06-06 23:58                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  network dark                         |
+  |   updated :  2026-06-07 04:05                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:58:43] INIT  process 4267 attached
-[23:58:43] INFO  uptime 407h 4m
-[23:58:43] EXEC  module shadow.py loaded
-[23:58:43] WARN  anomaly detected
-[23:58:43] SCAN  66.152.71.11 found
+[04:05:27] SCAN  178.166.130.46 found
+[04:05:27] EXEC  module shadow.py loaded
+[04:05:27] INIT  process 7317 attached
+[04:05:27] WARN  packet loss 0.3%
+[04:05:27] INFO  uptime 596h 1m
 ```
 
 ---
@@ -41,11 +41,11 @@ $ tail -f /var/log/momoru.log
  SKILL MATRIX
  -----------------------------------------------
   social engineering     █████████░  92%
-  network recon          █████████░  97%
-  staying invisible      ████████░░  84%
+  network recon          ████████░░  83%
+  staying invisible      █████████░  95%
   trust no one           ████████░░  87%
   python                 ███████░░░  75%
-  existential dread      █████████░  98%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-06 23:58 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-07 04:05 · auto-updated every 30 min</sub>
