@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-06-07 17:06                     |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-06-07 18:45                     |
   |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:06:07] WARN  signal noise +12dB
-[17:06:07] EXEC  module nullify.c loaded
-[17:06:07] INFO  uptime 846h 49m
-[17:06:07] SCAN  135.242.254.247 found
-[17:06:07] INIT  process 3131 attached
+[18:45:42] EXEC  module recon.sh loaded
+[18:45:42] SCAN  243.39.130.158 found
+[18:45:42] INIT  process 2153 attached
+[18:45:42] INFO  uptime 69h 21m
+[18:45:42] WARN  signal noise +12dB
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  79%
-  network recon          █████████░  93%
-  staying invisible      █████████░  94%
-  trust no one           █████████░  97%
-  python                 █████████░  91%
-  existential dread      █████████░  91%
+  social engineering     █████████░  94%
+  network recon          ███████░░░  71%
+  staying invisible      ████████░░  85%
+  trust no one           ████████░░  85%
+  python                 █████████░  98%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-07 17:06 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-07 18:45 · auto-updated every 30 min</sub>
