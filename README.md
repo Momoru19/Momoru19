@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  signal unstable                      |
-  |   updated :  2026-06-07 21:42                     |
+  |   updated :  2026-06-07 22:55                     |
   |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:42:08] INIT  process 1580 attached
-[21:42:08] EXEC  module shadow.py loaded
-[21:42:08] SCAN  84.240.199.34 found
-[21:42:08] INFO  uptime 563h 0m
-[21:42:08] WARN  signal noise +12dB
+[22:55:33] EXEC  module recon.sh loaded
+[22:55:33] INFO  uptime 103h 32m
+[22:55:33] SCAN  186.109.225.145 found
+[22:55:33] WARN  packet loss 0.3%
+[22:55:33] INIT  process 5759 attached
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  87%
-  network recon          ████████░░  88%
-  staying invisible      █████████░  93%
-  trust no one           █████████░  98%
-  python                 ████████░░  84%
-  existential dread      █████████░  94%
+  social engineering     ████████░░  86%
+  network recon          █████████░  91%
+  staying invisible      █████████░  91%
+  trust no one           █████████░  92%
+  python                 █████████░  93%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-07 21:42 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-07 22:55 · auto-updated every 30 min</sub>
