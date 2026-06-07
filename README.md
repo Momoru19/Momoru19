@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-06-07 15:49                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  surveillance mode                    |
+  |   updated :  2026-06-07 17:06                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[15:49:38] WARN  anomaly detected
-[15:49:38] EXEC  module shadow.py loaded
-[15:49:38] SCAN  45.43.163.174 found
-[15:49:38] INFO  uptime 237h 5m
-[15:49:38] INIT  process 7665 attached
+[17:06:07] WARN  signal noise +12dB
+[17:06:07] EXEC  module nullify.c loaded
+[17:06:07] INFO  uptime 846h 49m
+[17:06:07] SCAN  135.242.254.247 found
+[17:06:07] INIT  process 3131 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  97%
-  network recon          ████████░░  88%
-  staying invisible      ████████░░  85%
-  trust no one           ████████░░  88%
-  python                 ███████░░░  79%
-  existential dread      █████████░  99%
+  social engineering     ███████░░░  79%
+  network recon          █████████░  93%
+  staying invisible      █████████░  94%
+  trust no one           █████████░  97%
+  python                 █████████░  91%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-07 15:49 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-07 17:06 · auto-updated every 30 min</sub>
