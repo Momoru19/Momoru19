@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  booting identity matrix              |
-  |   updated :  2026-06-08 09:59                     |
-  |   origin  :  /dev/null                            |
+  |   status  :  surveillance mode                    |
+  |   updated :  2026-06-08 14:12                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[09:59:28] WARN  packet loss 0.3%
-[09:59:28] SCAN  177.177.129.75 found
-[09:59:28] INIT  process 6474 attached
-[09:59:28] EXEC  module shadow.py loaded
-[09:59:28] INFO  uptime 637h 33m
+[14:12:37] EXEC  module shadow.py loaded
+[14:12:37] INIT  process 3776 attached
+[14:12:37] WARN  signal noise +12dB
+[14:12:37] INFO  uptime 572h 46m
+[14:12:37] SCAN  184.108.96.109 found
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  95%
-  network recon          ████████░░  89%
-  staying invisible      ████████░░  86%
-  trust no one           ████████░░  88%
-  python                 ████████░░  81%
-  existential dread      ██████████  100%
+  social engineering     █████████░  96%
+  network recon          ████████░░  86%
+  staying invisible      ████████░░  83%
+  trust no one           █████████░  95%
+  python                 ████████░░  83%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-08 09:59 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-08 14:12 · auto-updated every 30 min</sub>
