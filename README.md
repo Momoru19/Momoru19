@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-06-12 21:01                     |
-  |   origin  :  your blind spot                      |
+  |   updated :  2026-06-12 22:53                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:01:53] EXEC  module recon.sh loaded
-[21:01:53] INIT  process 1272 attached
-[21:01:53] INFO  uptime 580h 12m
-[21:01:53] SCAN  159.75.248.210 found
-[21:01:53] WARN  anomaly detected
+[22:53:34] INFO  uptime 732h 58m
+[22:53:34] SCAN  152.156.131.71 found
+[22:53:34] INIT  process 5814 attached
+[22:53:34] EXEC  module trace.go loaded
+[22:53:34] WARN  unknown handshake
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,10 +40,10 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  82%
-  network recon          █████████░  95%
-  staying invisible      █████████░  90%
-  trust no one           ████████░░  85%
+  social engineering     ███████░░░  77%
+  network recon          ███████░░░  77%
+  staying invisible      █████████░  96%
+  trust no one           ████████░░  86%
   python                 ███████░░░  78%
   existential dread      █████████░  94%
 ```
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-12 21:01 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-12 22:53 · auto-updated every 30 min</sub>
