@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  data harvesting                      |
-  |   updated :  2026-06-13 20:45                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   updated :  2026-06-13 21:56                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:45:15] INIT  process 3503 attached
-[20:45:15] WARN  unknown handshake
-[20:45:15] INFO  uptime 618h 15m
-[20:45:15] EXEC  module trace.go loaded
-[20:45:15] SCAN  63.40.197.184 found
+[21:56:49] INFO  uptime 213h 56m
+[21:56:49] EXEC  module recon.sh loaded
+[21:56:49] SCAN  34.107.230.181 found
+[21:56:49] WARN  packet loss 0.3%
+[21:56:49] INIT  process 6465 attached
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  95%
-  network recon          ████████░░  84%
-  staying invisible      █████████░  92%
-  trust no one           █████████░  99%
-  python                 ████████░░  89%
-  existential dread      █████████░  96%
+  social engineering     ████████░░  82%
+  network recon          ███████░░░  79%
+  staying invisible      ████████░░  84%
+  trust no one           ████████░░  89%
+  python                 ███████░░░  79%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-13 20:45 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-13 21:56 · auto-updated every 30 min</sub>
