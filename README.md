@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal weak                          |
-  |   updated :  2026-06-13 10:42                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  tracking enabled                     |
+  |   updated :  2026-06-13 12:20                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:42:51] WARN  anomaly detected
-[10:42:51] SCAN  32.150.110.19 found
-[10:42:51] INIT  process 8090 attached
-[10:42:51] EXEC  module recon.sh loaded
-[10:42:51] INFO  uptime 134h 33m
+[12:20:03] WARN  packet loss 0.3%
+[12:20:03] INFO  uptime 307h 50m
+[12:20:03] INIT  process 2671 attached
+[12:20:03] SCAN  222.138.189.172 found
+[12:20:03] EXEC  module trace.go loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  80%
-  network recon          ███████░░░  78%
-  staying invisible      ████████░░  82%
-  trust no one           █████████░  93%
-  python                 █████████░  98%
-  existential dread      █████████░  93%
+  social engineering     ████████░░  85%
+  network recon          ████████░░  80%
+  staying invisible      █████████░  97%
+  trust no one           █████████░  99%
+  python                 █████████░  96%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-13 10:42 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-13 12:20 · auto-updated every 30 min</sub>
