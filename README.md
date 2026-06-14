@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  data harvesting                      |
-  |   updated :  2026-06-14 19:11                     |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-06-14 20:44                     |
   |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:11:15] INIT  process 8200 attached
-[19:11:15] INFO  uptime 215h 48m
-[19:11:15] EXEC  module shadow.py loaded
-[19:11:15] SCAN  47.12.70.33 found
-[19:11:15] WARN  unknown handshake
+[20:44:41] SCAN  26.133.42.221 found
+[20:44:41] INFO  uptime 604h 34m
+[20:44:41] INIT  process 8785 attached
+[20:44:41] WARN  unknown handshake
+[20:44:41] EXEC  module shadow.py loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  63%
-  network recon          ████████░░  88%
-  staying invisible      ████████░░  86%
-  trust no one           ████████░░  88%
-  python                 █████████░  98%
-  existential dread      █████████░  98%
+  social engineering     █████████░  98%
+  network recon          ███████░░░  73%
+  staying invisible      █████████░  96%
+  trust no one           ████████░░  85%
+  python                 █████████░  94%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-14 19:11 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-14 20:44 · auto-updated every 30 min</sub>
