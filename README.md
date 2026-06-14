@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  tracking enabled                     |
-  |   updated :  2026-06-14 17:54                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-06-14 19:11                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:54:29] SCAN  118.223.151.18 found
-[17:54:29] WARN  unknown handshake
-[17:54:29] INFO  uptime 320h 27m
-[17:54:29] EXEC  module trace.go loaded
-[17:54:29] INIT  process 5000 attached
+[19:11:15] INIT  process 8200 attached
+[19:11:15] INFO  uptime 215h 48m
+[19:11:15] EXEC  module shadow.py loaded
+[19:11:15] SCAN  47.12.70.33 found
+[19:11:15] WARN  unknown handshake
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  68%
-  network recon          █████████░  95%
-  staying invisible      █████████░  92%
-  trust no one           ████████░░  86%
-  python                 ████████░░  81%
-  existential dread      █████████░  93%
+  social engineering     ██████░░░░  63%
+  network recon          ████████░░  88%
+  staying invisible      ████████░░  86%
+  trust no one           ████████░░  88%
+  python                 █████████░  98%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-14 17:54 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-14 19:11 · auto-updated every 30 min</sub>
