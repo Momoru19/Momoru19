@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  deep scan in progress                |
-  |   updated :  2026-06-20 00:01                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  ghost mode: ON                       |
+  |   updated :  2026-06-20 04:48                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[00:01:33] SCAN  224.245.157.110 found
-[00:01:33] EXEC  module nullify.c loaded
-[00:01:33] INIT  process 8087 attached
-[00:01:33] INFO  uptime 305h 12m
-[00:01:33] WARN  unknown handshake
+[04:48:08] INFO  uptime 351h 28m
+[04:48:08] WARN  packet loss 0.3%
+[04:48:08] INIT  process 9923 attached
+[04:48:08] EXEC  module shadow.py loaded
+[04:48:08] SCAN  12.65.42.160 found
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  91%
-  network recon          █████████░  95%
-  staying invisible      █████████░  95%
-  trust no one           █████████░  98%
-  python                 ████████░░  85%
-  existential dread      █████████░  95%
+  social engineering     ████████░░  85%
+  network recon          ████████░░  84%
+  staying invisible      ████████░░  86%
+  trust no one           █████████░  90%
+  python                 ████████░░  88%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-20 00:01 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-20 04:48 · auto-updated every 30 min</sub>
