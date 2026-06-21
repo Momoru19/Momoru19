@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  data harvesting                      |
-  |   updated :  2026-06-21 18:19                     |
-  |   origin  :  somewhere between packets            |
+  |   updated :  2026-06-21 20:09                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[18:19:58] SCAN  213.243.176.136 found
-[18:19:58] INFO  uptime 542h 31m
-[18:19:58] WARN  packet loss 0.3%
-[18:19:58] EXEC  module nullify.c loaded
-[18:19:58] INIT  process 3521 attached
+[20:09:47] SCAN  139.36.250.192 found
+[20:09:47] INFO  uptime 916h 53m
+[20:09:47] EXEC  module trace.go loaded
+[20:09:47] WARN  signal noise +12dB
+[20:09:47] INIT  process 8308 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  96%
-  network recon          ████████░░  83%
-  staying invisible      █████████░  91%
-  trust no one           ████████░░  88%
-  python                 ███████░░░  79%
-  existential dread      █████████░  93%
+  social engineering     ███████░░░  74%
+  network recon          ███████░░░  74%
+  staying invisible      ████████░░  83%
+  trust no one           █████████░  90%
+  python                 ████████░░  87%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-21 18:19 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-21 20:09 · auto-updated every 30 min</sub>
