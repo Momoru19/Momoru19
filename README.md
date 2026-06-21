@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  evening crawl                        |
-  |   updated :  2026-06-21 21:49                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   updated :  2026-06-21 23:01                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:49:48] SCAN  145.207.118.53 found
-[21:49:48] WARN  signal noise +12dB
-[21:49:48] INFO  uptime 726h 44m
-[21:49:48] EXEC  module trace.go loaded
-[21:49:48] INIT  process 1271 attached
+[23:01:59] INFO  uptime 802h 7m
+[23:01:59] EXEC  module recon.sh loaded
+[23:01:59] SCAN  201.87.57.162 found
+[23:01:59] INIT  process 5010 attached
+[23:01:59] WARN  unknown handshake
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  97%
+  social engineering     ████████░░  85%
   network recon          ████████░░  88%
-  staying invisible      █████████░  95%
-  trust no one           █████████░  91%
-  python                 █████████░  99%
-  existential dread      █████████░  93%
+  staying invisible      ████████░░  84%
+  trust no one           █████████░  99%
+  python                 ███████░░░  79%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-21 21:49 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-21 23:01 · auto-updated every 30 min</sub>
