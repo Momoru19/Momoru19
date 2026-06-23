@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  data harvesting                      |
-  |   updated :  2026-06-23 19:10                     |
-  |   origin  :  somewhere between packets            |
+  |   updated :  2026-06-23 21:10                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:10:12] INIT  process 9910 attached
-[19:10:12] WARN  packet loss 0.3%
-[19:10:12] EXEC  module recon.sh loaded
-[19:10:12] SCAN  40.229.185.56 found
-[19:10:12] INFO  uptime 335h 53m
+[21:10:55] WARN  signal noise +12dB
+[21:10:55] INIT  process 4836 attached
+[21:10:55] INFO  uptime 357h 28m
+[21:10:55] SCAN  33.134.80.48 found
+[21:10:55] EXEC  module recon.sh loaded
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "I am not the good guy."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  75%
-  network recon          ████████░░  89%
-  staying invisible      ████████░░  83%
-  trust no one           █████████░  97%
-  python                 ████████░░  88%
+  social engineering     ██████░░░░  67%
+  network recon          ████████░░  80%
+  staying invisible      ████████░░  87%
+  trust no one           ████████░░  88%
+  python                 █████████░  99%
   existential dread      █████████░  96%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-23 19:10 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-23 21:10 · auto-updated every 30 min</sub>
