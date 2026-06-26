@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-06-26 21:02                     |
+  |   updated :  2026-06-26 22:41                     |
   |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:02:44] EXEC  module nullify.c loaded
-[21:02:44] SCAN  251.212.161.60 found
-[21:02:44] INFO  uptime 892h 29m
-[21:02:44] INIT  process 6155 attached
-[21:02:44] WARN  anomaly detected
+[22:41:44] INIT  process 1071 attached
+[22:41:44] EXEC  module recon.sh loaded
+[22:41:44] SCAN  100.153.5.122 found
+[22:41:44] WARN  anomaly detected
+[22:41:44] INFO  uptime 85h 12m
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  82%
-  network recon          ████████░░  88%
-  staying invisible      █████████░  94%
+  social engineering     ██████░░░░  69%
+  network recon          █████████░  91%
+  staying invisible      █████████░  97%
   trust no one           █████████░  92%
-  python                 █████████░  96%
-  existential dread      █████████░  94%
+  python                 ████████░░  81%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-06-26 21:02 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-06-26 22:41 · auto-updated every 30 min</sub>
