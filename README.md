@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-07-01 20:45                     |
+  |   status  :  evening crawl                        |
+  |   updated :  2026-07-01 22:13                     |
   |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:45:21] INFO  uptime 791h 30m
-[20:45:21] WARN  packet loss 0.3%
-[20:45:21] SCAN  192.133.250.100 found
-[20:45:21] EXEC  module trace.go loaded
-[20:45:21] INIT  process 4011 attached
+[22:13:08] INIT  process 4335 attached
+[22:13:08] WARN  packet loss 0.3%
+[22:13:08] EXEC  module recon.sh loaded
+[22:13:08] INFO  uptime 26h 7m
+[22:13:08] SCAN  238.192.35.171 found
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  74%
-  network recon          ████████░░  83%
-  staying invisible      ████████░░  88%
-  trust no one           █████████░  94%
-  python                 █████████░  92%
-  existential dread      ██████████  100%
+  social engineering     ███████░░░  78%
+  network recon          ████████░░  86%
+  staying invisible      ████████░░  85%
+  trust no one           ████████░░  87%
+  python                 ████████░░  86%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-01 20:45 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-01 22:13 · auto-updated every 30 min</sub>
