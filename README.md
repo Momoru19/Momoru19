@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  tracking enabled                     |
-  |   updated :  2026-07-02 12:03                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   updated :  2026-07-02 14:35                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[12:03:23] INIT  process 5649 attached
-[12:03:23] WARN  packet loss 0.3%
-[12:03:23] INFO  uptime 67h 36m
-[12:03:23] SCAN  174.32.83.104 found
-[12:03:23] EXEC  module recon.sh loaded
+[14:35:53] SCAN  86.170.51.28 found
+[14:35:53] INFO  uptime 878h 8m
+[14:35:53] WARN  packet loss 0.3%
+[14:35:53] EXEC  module trace.go loaded
+[14:35:53] INIT  process 4004 attached
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  88%
-  network recon          █████████░  98%
-  staying invisible      █████████░  93%
-  trust no one           ████████░░  88%
-  python                 ███████░░░  77%
-  existential dread      █████████░  98%
+  social engineering     ███████░░░  78%
+  network recon          █████████░  96%
+  staying invisible      █████████░  91%
+  trust no one           █████████░  98%
+  python                 ████████░░  88%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-02 12:03 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-02 14:35 · auto-updated every 30 min</sub>
