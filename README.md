@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-07-03 20:35                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-07-03 21:57                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:35:45] INIT  process 6951 attached
-[20:35:45] SCAN  246.234.3.94 found
-[20:35:45] EXEC  module nullify.c loaded
-[20:35:45] INFO  uptime 751h 6m
-[20:35:45] WARN  packet loss 0.3%
+[21:57:48] EXEC  module trace.go loaded
+[21:57:48] SCAN  85.237.196.51 found
+[21:57:48] INFO  uptime 134h 9m
+[21:57:48] WARN  unknown handshake
+[21:57:48] INIT  process 7336 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "Hello, friend."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  92%
-  network recon          █████████░  99%
-  staying invisible      █████████░  92%
-  trust no one           █████████░  91%
-  python                 ███████░░░  78%
-  existential dread      █████████░  97%
+  social engineering     ██████░░░░  60%
+  network recon          ████████░░  82%
+  staying invisible      █████████░  96%
+  trust no one           ████████░░  88%
+  python                 ███████░░░  75%
+  existential dread      █████████░  90%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-03 20:35 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-03 21:57 · auto-updated every 30 min</sub>
