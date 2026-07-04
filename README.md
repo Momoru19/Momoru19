@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-07-03 23:02                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  deep scan in progress                |
+  |   updated :  2026-07-04 01:04                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:02:10] WARN  anomaly detected
-[23:02:10] SCAN  203.54.74.235 found
-[23:02:10] INIT  process 6823 attached
-[23:02:10] EXEC  module nullify.c loaded
-[23:02:10] INFO  uptime 933h 28m
+[01:04:53] INIT  process 8923 attached
+[01:04:53] INFO  uptime 974h 18m
+[01:04:53] EXEC  module shadow.py loaded
+[01:04:53] WARN  packet loss 0.3%
+[01:04:53] SCAN  138.76.185.138 found
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  96%
-  network recon          ████████░░  82%
+  social engineering     ████████░░  87%
+  network recon          ███████░░░  75%
   staying invisible      ████████░░  86%
-  trust no one           █████████░  99%
-  python                 ████████░░  81%
-  existential dread      █████████░  96%
+  trust no one           █████████░  96%
+  python                 ████████░░  84%
+  existential dread      █████████░  90%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-03 23:02 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-04 01:04 · auto-updated every 30 min</sub>
