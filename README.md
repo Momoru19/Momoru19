@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  ghost mode: ON                       |
-  |   updated :  2026-07-04 05:01                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  signal weak                          |
+  |   updated :  2026-07-04 08:07                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[05:01:35] INFO  uptime 960h 6m
-[05:01:35] INIT  process 5221 attached
-[05:01:35] WARN  unknown handshake
-[05:01:35] EXEC  module recon.sh loaded
-[05:01:35] SCAN  97.63.237.183 found
+[08:07:51] EXEC  module recon.sh loaded
+[08:07:51] INFO  uptime 558h 40m
+[08:07:51] WARN  unknown handshake
+[08:07:51] SCAN  69.174.229.159 found
+[08:07:51] INIT  process 3929 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  67%
-  network recon          ████████░░  80%
-  staying invisible      █████████░  92%
-  trust no one           █████████░  98%
-  python                 █████████░  93%
+  social engineering     ███████░░░  77%
+  network recon          ████████░░  85%
+  staying invisible      █████████░  93%
+  trust no one           █████████░  90%
+  python                 █████████░  91%
   existential dread      █████████░  97%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-04 05:01 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-04 08:07 · auto-updated every 30 min</sub>
