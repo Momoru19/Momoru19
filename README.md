@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  sleeping process detected            |
-  |   updated :  2026-07-07 04:29                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  system warming up                    |
+  |   updated :  2026-07-07 07:58                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[04:29:54] INFO  uptime 266h 52m
-[04:29:54] SCAN  239.81.200.27 found
-[04:29:54] INIT  process 8636 attached
-[04:29:54] EXEC  module nullify.c loaded
-[04:29:54] WARN  unknown handshake
+[07:58:59] SCAN  197.116.253.202 found
+[07:58:59] INIT  process 6627 attached
+[07:58:59] WARN  unknown handshake
+[07:58:59] EXEC  module recon.sh loaded
+[07:58:59] INFO  uptime 419h 32m
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "Hello, friend."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  62%
-  network recon          ███████░░░  75%
-  staying invisible      ████████░░  85%
-  trust no one           █████████░  94%
-  python                 ████████░░  83%
+  social engineering     ██████░░░░  68%
+  network recon          ████████░░  88%
+  staying invisible      ████████░░  84%
+  trust no one           ████████░░  88%
+  python                 ████████░░  82%
   existential dread      █████████░  90%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-07 04:29 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-07 07:58 · auto-updated every 30 min</sub>
