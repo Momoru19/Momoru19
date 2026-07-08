@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  deep scan in progress                |
-  |   updated :  2026-07-08 05:13                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  system warming up                    |
+  |   updated :  2026-07-08 07:43                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[05:13:23] SCAN  114.167.246.64 found
-[05:13:23] INIT  process 5921 attached
-[05:13:23] INFO  uptime 550h 16m
-[05:13:23] EXEC  module nullify.c loaded
-[05:13:23] WARN  packet loss 0.3%
+[07:43:46] EXEC  module nullify.c loaded
+[07:43:46] WARN  unknown handshake
+[07:43:46] SCAN  19.217.50.97 found
+[07:43:46] INFO  uptime 365h 28m
+[07:43:46] INIT  process 1583 attached
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  90%
-  network recon          ███████░░░  78%
-  staying invisible      █████████░  97%
-  trust no one           █████████░  94%
-  python                 ████████░░  86%
-  existential dread      █████████░  99%
+  social engineering     ████████░░  82%
+  network recon          ████████░░  89%
+  staying invisible      ████████░░  85%
+  trust no one           █████████░  91%
+  python                 █████████░  93%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-08 05:13 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-08 07:43 · auto-updated every 30 min</sub>
