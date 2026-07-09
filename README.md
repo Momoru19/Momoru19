@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-07-08 23:09                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  ghost mode: ON                       |
+  |   updated :  2026-07-09 01:07                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:09:33] WARN  unknown handshake
-[23:09:33] INFO  uptime 446h 9m
-[23:09:33] SCAN  11.131.164.220 found
-[23:09:33] EXEC  module shadow.py loaded
-[23:09:33] INIT  process 2180 attached
+[01:07:41] INFO  uptime 542h 53m
+[01:07:41] EXEC  module trace.go loaded
+[01:07:41] INIT  process 6270 attached
+[01:07:41] SCAN  21.63.52.200 found
+[01:07:41] WARN  anomaly detected
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  63%
-  network recon          ████████░░  83%
-  staying invisible      ████████░░  85%
-  trust no one           █████████░  94%
-  python                 ████████░░  82%
-  existential dread      █████████░  99%
+  social engineering     ███████░░░  73%
+  network recon          ████████░░  88%
+  staying invisible      █████████░  92%
+  trust no one           █████████░  99%
+  python                 ███████░░░  75%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-08 23:09 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-09 01:07 · auto-updated every 30 min</sub>
