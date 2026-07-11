@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-07-11 19:38                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   updated :  2026-07-11 20:38                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:38:49] INIT  process 6598 attached
-[19:38:49] WARN  signal noise +12dB
-[19:38:49] EXEC  module shadow.py loaded
-[19:38:49] INFO  uptime 377h 3m
-[19:38:49] SCAN  32.149.139.59 found
+[20:38:55] EXEC  module shadow.py loaded
+[20:38:55] INFO  uptime 840h 56m
+[20:38:55] SCAN  167.221.232.97 found
+[20:38:55] WARN  signal noise +12dB
+[20:38:55] INIT  process 6490 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  75%
-  network recon          ████████░░  86%
-  staying invisible      ████████░░  81%
-  trust no one           █████████░  99%
+  social engineering     ████████░░  89%
+  network recon          █████████░  91%
+  staying invisible      █████████░  93%
+  trust no one           ████████░░  89%
   python                 █████████░  91%
-  existential dread      █████████░  96%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-11 19:38 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-11 20:38 · auto-updated every 30 min</sub>
