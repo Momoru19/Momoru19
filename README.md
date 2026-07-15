@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  morning recon                        |
-  |   updated :  2026-07-15 09:05                     |
-  |   origin  :  somewhere between packets            |
+  |   updated :  2026-07-15 11:06                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[09:05:05] INFO  uptime 367h 40m
-[09:05:05] SCAN  80.196.246.199 found
-[09:05:05] INIT  process 2229 attached
-[09:05:05] EXEC  module shadow.py loaded
-[09:05:05] WARN  unknown handshake
+[11:06:10] WARN  signal noise +12dB
+[11:06:10] SCAN  251.59.35.50 found
+[11:06:10] INFO  uptime 392h 47m
+[11:06:10] EXEC  module nullify.c loaded
+[11:06:10] INIT  process 4347 attached
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  93%
-  network recon          ████████░░  83%
-  staying invisible      ████████░░  89%
-  trust no one           █████████░  95%
-  python                 █████████░  90%
-  existential dread      █████████░  95%
+  social engineering     █████████░  92%
+  network recon          ████████░░  88%
+  staying invisible      █████████░  96%
+  trust no one           █████████░  99%
+  python                 ███████░░░  78%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-15 09:05 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-15 11:06 · auto-updated every 30 min</sub>
