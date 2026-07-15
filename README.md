@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  ghost mode: ON                       |
-  |   updated :  2026-07-15 01:28                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   status  :  sleeping process detected            |
+  |   updated :  2026-07-15 04:27                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[01:28:53] EXEC  module shadow.py loaded
-[01:28:53] WARN  anomaly detected
-[01:28:53] INFO  uptime 755h 18m
-[01:28:53] SCAN  176.71.177.162 found
-[01:28:53] INIT  process 3146 attached
+[04:27:17] INFO  uptime 949h 26m
+[04:27:17] EXEC  module shadow.py loaded
+[04:27:17] SCAN  202.86.228.204 found
+[04:27:17] INIT  process 4970 attached
+[04:27:17] WARN  anomaly detected
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  62%
-  network recon          █████████░  96%
+  social engineering     ██████░░░░  64%
+  network recon          ███████░░░  76%
   staying invisible      █████████░  99%
-  trust no one           █████████░  97%
-  python                 █████████░  92%
-  existential dread      █████████░  90%
+  trust no one           ████████░░  87%
+  python                 ████████░░  87%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-15 01:28 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-15 04:27 · auto-updated every 30 min</sub>
