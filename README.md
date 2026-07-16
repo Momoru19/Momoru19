@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  evening crawl                        |
-  |   updated :  2026-07-16 21:29                     |
+  |   updated :  2026-07-16 22:29                     |
   |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:29:39] WARN  signal noise +12dB
-[21:29:39] INIT  process 9970 attached
-[21:29:39] EXEC  module recon.sh loaded
-[21:29:39] INFO  uptime 119h 31m
-[21:29:39] SCAN  35.143.221.67 found
+[22:29:26] INFO  uptime 588h 0m
+[22:29:26] SCAN  131.134.245.106 found
+[22:29:26] WARN  anomaly detected
+[22:29:26] EXEC  module recon.sh loaded
+[22:29:26] INIT  process 7858 attached
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  88%
-  network recon          █████████░  92%
-  staying invisible      █████████░  98%
-  trust no one           █████████░  95%
-  python                 ████████░░  85%
-  existential dread      █████████░  96%
+  social engineering     ███████░░░  75%
+  network recon          █████████░  99%
+  staying invisible      █████████░  92%
+  trust no one           ████████░░  87%
+  python                 ████████░░  86%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-16 21:29 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-16 22:29 · auto-updated every 30 min</sub>
