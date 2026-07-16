@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  tracking enabled                     |
-  |   updated :  2026-07-16 14:30                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  surveillance mode                    |
+  |   updated :  2026-07-16 16:10                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[14:30:23] SCAN  75.245.26.180 found
-[14:30:23] INFO  uptime 923h 12m
-[14:30:23] WARN  anomaly detected
-[14:30:23] EXEC  module nullify.c loaded
-[14:30:23] INIT  process 2798 attached
+[16:10:02] SCAN  37.207.249.43 found
+[16:10:02] INIT  process 1881 attached
+[16:10:02] WARN  signal noise +12dB
+[16:10:02] INFO  uptime 693h 40m
+[16:10:02] EXEC  module recon.sh loaded
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  69%
-  network recon          ███████░░░  74%
-  staying invisible      █████████░  91%
-  trust no one           ████████░░  87%
-  python                 █████████░  98%
-  existential dread      █████████░  96%
+  social engineering     ████████░░  81%
+  network recon          ████████░░  86%
+  staying invisible      █████████░  98%
+  trust no one           ████████░░  86%
+  python                 █████████░  91%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-16 14:30 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-16 16:10 · auto-updated every 30 min</sub>
