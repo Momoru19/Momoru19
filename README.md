@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  data harvesting                      |
-  |   updated :  2026-07-17 19:59                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  evening crawl                        |
+  |   updated :  2026-07-17 20:58                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:59:24] INFO  uptime 401h 18m
-[19:59:24] EXEC  module recon.sh loaded
-[19:59:24] WARN  unknown handshake
-[19:59:24] INIT  process 6932 attached
-[19:59:24] SCAN  118.69.132.112 found
+[20:58:58] SCAN  33.236.121.48 found
+[20:58:58] WARN  signal noise +12dB
+[20:58:58] INIT  process 7143 attached
+[20:58:58] EXEC  module nullify.c loaded
+[20:58:58] INFO  uptime 542h 4m
 ```
 
 ---
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  79%
-  network recon          █████████░  90%
-  staying invisible      ████████░░  83%
-  trust no one           █████████░  99%
-  python                 █████████░  91%
+  social engineering     ██████░░░░  61%
+  network recon          █████████░  99%
+  staying invisible      ████████░░  89%
+  trust no one           ████████░░  89%
+  python                 █████████░  90%
   existential dread      █████████░  96%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-17 19:59 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-17 20:58 · auto-updated every 30 min</sub>
