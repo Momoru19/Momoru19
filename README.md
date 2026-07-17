@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  tracking enabled                     |
-  |   updated :  2026-07-17 15:52                     |
-  |   origin  :  behind seven proxies                 |
+  |   updated :  2026-07-17 17:01                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[15:52:55] WARN  anomaly detected
-[15:52:55] INIT  process 8482 attached
-[15:52:55] EXEC  module shadow.py loaded
-[15:52:55] INFO  uptime 622h 6m
-[15:52:55] SCAN  209.29.46.220 found
+[17:01:30] WARN  packet loss 0.3%
+[17:01:30] SCAN  143.28.84.63 found
+[17:01:30] INIT  process 5006 attached
+[17:01:30] EXEC  module trace.go loaded
+[17:01:30] INFO  uptime 84h 32m
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  93%
-  network recon          █████████░  96%
-  staying invisible      █████████░  98%
-  trust no one           ████████░░  87%
-  python                 ████████░░  88%
-  existential dread      █████████░  93%
+  social engineering     ███████░░░  74%
+  network recon          ████████░░  86%
+  staying invisible      ████████░░  81%
+  trust no one           █████████░  94%
+  python                 ███████░░░  75%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-17 15:52 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-17 17:01 · auto-updated every 30 min</sub>
