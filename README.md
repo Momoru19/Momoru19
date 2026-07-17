@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  tracking enabled                     |
-  |   updated :  2026-07-17 12:02                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   updated :  2026-07-17 14:10                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[12:02:27] SCAN  219.35.102.82 found
-[12:02:27] INIT  process 9095 attached
-[12:02:27] EXEC  module nullify.c loaded
-[12:02:27] WARN  anomaly detected
-[12:02:27] INFO  uptime 392h 32m
+[14:10:15] SCAN  118.46.252.126 found
+[14:10:15] INFO  uptime 437h 23m
+[14:10:15] INIT  process 1255 attached
+[14:10:15] WARN  packet loss 0.3%
+[14:10:15] EXEC  module nullify.c loaded
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  92%
-  network recon          ████████░░  87%
-  staying invisible      ████████░░  86%
-  trust no one           █████████░  93%
-  python                 ████████░░  84%
-  existential dread      █████████░  99%
+  social engineering     ███████░░░  73%
+  network recon          █████████░  94%
+  staying invisible      █████████░  94%
+  trust no one           █████████░  97%
+  python                 ███████░░░  77%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-17 12:02 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-17 14:10 · auto-updated every 30 min</sub>
