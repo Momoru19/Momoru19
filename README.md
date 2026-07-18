@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  signal unstable                      |
-  |   updated :  2026-07-18 18:49                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   updated :  2026-07-18 19:59                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[18:49:38] WARN  signal noise +12dB
-[18:49:38] SCAN  154.254.29.15 found
-[18:49:38] EXEC  module shadow.py loaded
-[18:49:38] INIT  process 2329 attached
-[18:49:38] INFO  uptime 690h 28m
+[19:59:14] EXEC  module nullify.c loaded
+[19:59:14] INFO  uptime 334h 36m
+[19:59:14] INIT  process 3313 attached
+[19:59:14] WARN  signal noise +12dB
+[19:59:14] SCAN  151.188.133.102 found
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Give a man a bank and he can rob the world."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  64%
-  network recon          ████████░░  85%
-  staying invisible      ████████░░  88%
-  trust no one           █████████░  94%
-  python                 ████████░░  83%
+  social engineering     █████████░  96%
+  network recon          ████████░░  84%
+  staying invisible      █████████░  98%
+  trust no one           █████████░  91%
+  python                 █████████░  96%
   existential dread      █████████░  94%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-18 18:49 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-18 19:59 · auto-updated every 30 min</sub>
