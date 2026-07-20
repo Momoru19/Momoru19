@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  sleeping process detected            |
-  |   updated :  2026-07-20 01:00                     |
-  |   origin  :  /dev/null                            |
+  |   updated :  2026-07-20 04:59                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[01:00:35] INIT  process 5446 attached
-[01:00:35] WARN  anomaly detected
-[01:00:35] INFO  uptime 286h 4m
-[01:00:35] EXEC  module shadow.py loaded
-[01:00:35] SCAN  224.182.212.27 found
+[04:59:24] INIT  process 3405 attached
+[04:59:24] EXEC  module shadow.py loaded
+[04:59:24] WARN  unknown handshake
+[04:59:24] INFO  uptime 999h 52m
+[04:59:24] SCAN  105.163.184.196 found
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Is any of it real?"
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  61%
-  network recon          █████████░  98%
-  staying invisible      ████████░░  86%
-  trust no one           ████████░░  89%
-  python                 █████████░  93%
+  social engineering     █████████░  95%
+  network recon          █████████░  92%
+  staying invisible      ████████░░  88%
+  trust no one           █████████░  95%
+  python                 █████████░  91%
   existential dread      ██████████  100%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-20 01:00 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-20 04:59 · auto-updated every 30 min</sub>
