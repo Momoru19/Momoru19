@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-07-20 16:51                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-07-20 18:48                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:51:34] SCAN  198.96.219.103 found
-[16:51:34] INIT  process 4161 attached
-[16:51:34] WARN  signal noise +12dB
-[16:51:34] INFO  uptime 916h 43m
-[16:51:34] EXEC  module trace.go loaded
+[18:48:36] INIT  process 2156 attached
+[18:48:36] EXEC  module shadow.py loaded
+[18:48:36] SCAN  93.7.16.63 found
+[18:48:36] WARN  signal noise +12dB
+[18:48:36] INFO  uptime 386h 37m
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  70%
-  network recon          ████████░░  87%
-  staying invisible      █████████░  99%
-  trust no one           █████████░  99%
-  python                 █████████░  96%
-  existential dread      █████████░  97%
+  social engineering     ██████░░░░  65%
+  network recon          █████████░  90%
+  staying invisible      █████████░  93%
+  trust no one           █████████░  95%
+  python                 ███████░░░  77%
+  existential dread      █████████░  90%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-20 16:51 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-20 18:48 · auto-updated every 30 min</sub>
