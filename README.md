@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal weak                          |
-  |   updated :  2026-07-20 08:07                     |
+  |   status  :  morning recon                        |
+  |   updated :  2026-07-20 11:18                     |
   |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[08:07:24] WARN  signal noise +12dB
-[08:07:24] EXEC  module recon.sh loaded
-[08:07:24] SCAN  121.210.90.118 found
-[08:07:24] INIT  process 7090 attached
-[08:07:24] INFO  uptime 850h 44m
+[11:18:52] INIT  process 4078 attached
+[11:18:52] SCAN  172.136.28.115 found
+[11:18:52] INFO  uptime 207h 50m
+[11:18:52] EXEC  module shadow.py loaded
+[11:18:52] WARN  packet loss 0.3%
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  70%
-  network recon          ████████░░  86%
-  staying invisible      █████████░  93%
-  trust no one           █████████░  99%
-  python                 ███████░░░  77%
+  social engineering     ██████░░░░  66%
+  network recon          ████████░░  89%
+  staying invisible      █████████░  98%
+  trust no one           ████████░░  88%
+  python                 ████████░░  86%
   existential dread      █████████░  92%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-20 08:07 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-20 11:18 · auto-updated every 30 min</sub>
