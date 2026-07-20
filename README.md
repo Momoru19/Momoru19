@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-07-20 18:48                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-07-20 20:15                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[18:48:36] INIT  process 2156 attached
-[18:48:36] EXEC  module shadow.py loaded
-[18:48:36] SCAN  93.7.16.63 found
-[18:48:36] WARN  signal noise +12dB
-[18:48:36] INFO  uptime 386h 37m
+[20:15:39] INFO  uptime 127h 24m
+[20:15:39] EXEC  module shadow.py loaded
+[20:15:39] WARN  anomaly detected
+[20:15:39] INIT  process 2261 attached
+[20:15:39] SCAN  232.14.228.83 found
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  65%
-  network recon          █████████░  90%
+  social engineering     ██████░░░░  64%
+  network recon          ████████░░  81%
   staying invisible      █████████░  93%
-  trust no one           █████████░  95%
-  python                 ███████░░░  77%
-  existential dread      █████████░  90%
+  trust no one           █████████░  91%
+  python                 █████████░  90%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-20 18:48 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-20 20:15 · auto-updated every 30 min</sub>
