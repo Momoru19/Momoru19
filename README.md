@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal unstable                      |
-  |   updated :  2026-07-19 23:24                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  sleeping process detected            |
+  |   updated :  2026-07-20 01:00                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:24:54] SCAN  47.209.0.127 found
-[23:24:54] INIT  process 1211 attached
-[23:24:54] INFO  uptime 488h 28m
-[23:24:54] EXEC  module nullify.c loaded
-[23:24:54] WARN  signal noise +12dB
+[01:00:35] INIT  process 5446 attached
+[01:00:35] WARN  anomaly detected
+[01:00:35] INFO  uptime 286h 4m
+[01:00:35] EXEC  module shadow.py loaded
+[01:00:35] SCAN  224.182.212.27 found
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  77%
+  social engineering     ██████░░░░  61%
   network recon          █████████░  98%
-  staying invisible      █████████░  90%
-  trust no one           █████████░  91%
-  python                 █████████░  97%
-  existential dread      █████████░  94%
+  staying invisible      ████████░░  86%
+  trust no one           ████████░░  89%
+  python                 █████████░  93%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-19 23:24 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-20 01:00 · auto-updated every 30 min</sub>
