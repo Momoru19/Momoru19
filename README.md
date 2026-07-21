@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  tracking enabled                     |
-  |   updated :  2026-07-21 16:16                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  observer active                      |
+  |   updated :  2026-07-21 17:50                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:16:23] INFO  uptime 140h 46m
-[16:16:23] WARN  signal noise +12dB
-[16:16:23] SCAN  39.217.136.97 found
-[16:16:23] EXEC  module nullify.c loaded
-[16:16:23] INIT  process 2798 attached
+[17:50:01] SCAN  194.163.162.26 found
+[17:50:01] INFO  uptime 694h 11m
+[17:50:01] EXEC  module nullify.c loaded
+[17:50:01] INIT  process 5161 attached
+[17:50:01] WARN  packet loss 0.3%
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  82%
-  network recon          ████████░░  87%
-  staying invisible      █████████░  97%
-  trust no one           █████████░  93%
-  python                 ████████░░  85%
-  existential dread      █████████░  92%
+  social engineering     ███████░░░  74%
+  network recon          ████████░░  88%
+  staying invisible      █████████░  96%
+  trust no one           █████████░  92%
+  python                 ████████░░  84%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-21 16:16 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-21 17:50 · auto-updated every 30 min</sub>
