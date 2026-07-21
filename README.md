@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  evening crawl                        |
-  |   updated :  2026-07-21 21:56                     |
-  |   origin  :  behind seven proxies                 |
+  |   updated :  2026-07-21 22:51                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:56:38] EXEC  module nullify.c loaded
-[21:56:38] INFO  uptime 179h 42m
-[21:56:38] SCAN  128.8.107.22 found
-[21:56:38] INIT  process 6360 attached
-[21:56:38] WARN  unknown handshake
+[22:51:14] INIT  process 9334 attached
+[22:51:14] SCAN  133.201.162.227 found
+[22:51:14] EXEC  module nullify.c loaded
+[22:51:14] INFO  uptime 911h 58m
+[22:51:14] WARN  signal noise +12dB
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  67%
-  network recon          █████████░  96%
-  staying invisible      ████████░░  81%
-  trust no one           █████████░  98%
-  python                 █████████░  94%
-  existential dread      █████████░  93%
+  social engineering     ███████░░░  74%
+  network recon          ███████░░░  76%
+  staying invisible      █████████░  94%
+  trust no one           █████████░  90%
+  python                 █████████░  90%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-21 21:56 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-21 22:51 · auto-updated every 30 min</sub>
