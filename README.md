@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  observer active                      |
-  |   updated :  2026-07-21 17:50                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-07-21 19:04                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:50:01] SCAN  194.163.162.26 found
-[17:50:01] INFO  uptime 694h 11m
-[17:50:01] EXEC  module nullify.c loaded
-[17:50:01] INIT  process 5161 attached
-[17:50:01] WARN  packet loss 0.3%
+[19:04:57] EXEC  module nullify.c loaded
+[19:04:57] WARN  anomaly detected
+[19:04:57] INIT  process 5840 attached
+[19:04:57] INFO  uptime 862h 18m
+[19:04:57] SCAN  60.195.63.98 found
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  74%
-  network recon          ████████░░  88%
-  staying invisible      █████████░  96%
-  trust no one           █████████░  92%
-  python                 ████████░░  84%
-  existential dread      █████████░  98%
+  social engineering     █████████░  91%
+  network recon          ███████░░░  72%
+  staying invisible      █████████░  92%
+  trust no one           █████████░  93%
+  python                 ████████░░  86%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-21 17:50 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-21 19:04 · auto-updated every 30 min</sub>
