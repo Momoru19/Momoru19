@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  observer active                      |
-  |   updated :  2026-07-22 12:09                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   updated :  2026-07-22 14:31                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[12:09:58] EXEC  module trace.go loaded
-[12:09:58] INIT  process 5031 attached
-[12:09:58] WARN  anomaly detected
-[12:09:58] INFO  uptime 584h 15m
-[12:09:58] SCAN  158.42.128.10 found
+[14:31:30] INIT  process 7626 attached
+[14:31:30] EXEC  module nullify.c loaded
+[14:31:30] SCAN  52.148.3.16 found
+[14:31:30] INFO  uptime 482h 17m
+[14:31:30] WARN  signal noise +12dB
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  68%
-  network recon          █████████░  97%
-  staying invisible      █████████░  97%
-  trust no one           █████████░  94%
-  python                 ███████░░░  76%
-  existential dread      █████████░  95%
+  social engineering     ███████░░░  70%
+  network recon          █████████░  93%
+  staying invisible      █████████░  99%
+  trust no one           █████████░  93%
+  python                 █████████░  90%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-22 12:09 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-22 14:31 · auto-updated every 30 min</sub>
