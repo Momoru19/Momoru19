@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-07-22 16:14                     |
+  |   status  :  observer active                      |
+  |   updated :  2026-07-22 17:46                     |
   |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:14:42] INIT  process 5205 attached
-[16:14:42] SCAN  65.131.132.216 found
-[16:14:42] WARN  signal noise +12dB
-[16:14:42] EXEC  module recon.sh loaded
-[16:14:42] INFO  uptime 167h 1m
+[17:46:53] EXEC  module trace.go loaded
+[17:46:53] INFO  uptime 477h 19m
+[17:46:53] SCAN  9.128.114.21 found
+[17:46:53] INIT  process 2389 attached
+[17:46:53] WARN  anomaly detected
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  97%
-  network recon          █████████░  94%
-  staying invisible      ████████░░  88%
-  trust no one           █████████░  92%
-  python                 ███████░░░  78%
-  existential dread      █████████░  93%
+  social engineering     ██████░░░░  69%
+  network recon          ███████░░░  71%
+  staying invisible      █████████░  99%
+  trust no one           █████████░  98%
+  python                 ████████░░  84%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-22 16:14 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-22 17:46 · auto-updated every 30 min</sub>
