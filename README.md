@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  sleeping process detected            |
-  |   updated :  2026-07-25 02:08                     |
+  |   updated :  2026-07-25 05:26                     |
   |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[02:08:59] INFO  uptime 705h 20m
-[02:08:59] INIT  process 4011 attached
-[02:08:59] EXEC  module nullify.c loaded
-[02:08:59] SCAN  42.118.54.25 found
-[02:08:59] WARN  unknown handshake
+[05:26:37] EXEC  module shadow.py loaded
+[05:26:37] WARN  anomaly detected
+[05:26:37] INIT  process 2088 attached
+[05:26:37] INFO  uptime 414h 23m
+[05:26:37] SCAN  35.205.173.86 found
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  94%
-  network recon          █████████░  93%
-  staying invisible      █████████░  97%
-  trust no one           █████████░  97%
-  python                 █████████░  96%
-  existential dread      █████████░  92%
+  social engineering     ██████░░░░  62%
+  network recon          █████████░  97%
+  staying invisible      ████████░░  81%
+  trust no one           █████████░  91%
+  python                 █████████░  98%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-25 02:08 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-25 05:26 · auto-updated every 30 min</sub>
