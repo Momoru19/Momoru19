@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  data harvesting                      |
-  |   updated :  2026-07-28 22:31                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-07-28 23:52                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[22:31:11] INIT  process 5413 attached
-[22:31:11] EXEC  module trace.go loaded
-[22:31:11] WARN  signal noise +12dB
-[22:31:11] SCAN  167.179.171.246 found
-[22:31:11] INFO  uptime 57h 25m
+[23:52:04] INIT  process 3693 attached
+[23:52:04] SCAN  77.78.178.156 found
+[23:52:04] EXEC  module nullify.c loaded
+[23:52:04] WARN  packet loss 0.3%
+[23:52:04] INFO  uptime 42h 31m
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  64%
-  network recon          █████████░  93%
-  staying invisible      █████████░  90%
+  social engineering     █████████░  95%
+  network recon          ████████░░  80%
+  staying invisible      █████████░  92%
   trust no one           █████████░  98%
-  python                 ████████░░  83%
-  existential dread      █████████░  92%
+  python                 █████████░  95%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-28 22:31 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-28 23:52 · auto-updated every 30 min</sub>
