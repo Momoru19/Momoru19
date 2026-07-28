@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  morning recon                        |
-  |   updated :  2026-07-28 10:25                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  background process running           |
+  |   updated :  2026-07-28 12:19                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:25:13] INFO  uptime 175h 30m
-[10:25:13] INIT  process 7061 attached
-[10:25:13] SCAN  172.116.111.116 found
-[10:25:13] WARN  packet loss 0.3%
-[10:25:13] EXEC  module nullify.c loaded
+[12:19:12] INIT  process 9674 attached
+[12:19:12] INFO  uptime 670h 15m
+[12:19:12] EXEC  module nullify.c loaded
+[12:19:12] WARN  anomaly detected
+[12:19:12] SCAN  34.5.22.194 found
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  93%
-  network recon          ████████░░  87%
-  staying invisible      █████████░  93%
-  trust no one           ████████░░  86%
-  python                 █████████░  98%
-  existential dread      ██████████  100%
+  social engineering     ██████░░░░  63%
+  network recon          ████████░░  85%
+  staying invisible      ████████░░  88%
+  trust no one           █████████░  99%
+  python                 ███████░░░  76%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-28 10:25 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-28 12:19 · auto-updated every 30 min</sub>
