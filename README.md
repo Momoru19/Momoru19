@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal unstable                      |
-  |   updated :  2026-07-28 19:57                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-07-28 21:04                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:57:40] EXEC  module nullify.c loaded
-[19:57:40] INIT  process 7676 attached
-[19:57:40] SCAN  191.11.217.157 found
-[19:57:40] WARN  anomaly detected
-[19:57:40] INFO  uptime 485h 2m
+[21:04:49] INIT  process 8027 attached
+[21:04:49] EXEC  module shadow.py loaded
+[21:04:49] INFO  uptime 741h 41m
+[21:04:49] WARN  signal noise +12dB
+[21:04:49] SCAN  19.126.87.218 found
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  67%
-  network recon          ███████░░░  77%
-  staying invisible      █████████░  93%
-  trust no one           ████████░░  89%
-  python                 ████████░░  86%
-  existential dread      █████████░  90%
+  social engineering     ██████░░░░  68%
+  network recon          ████████░░  89%
+  staying invisible      █████████░  92%
+  trust no one           █████████░  96%
+  python                 █████████░  90%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-28 19:57 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-28 21:04 · auto-updated every 30 min</sub>
