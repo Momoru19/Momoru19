@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  booting identity matrix              |
-  |   updated :  2026-07-29 10:59                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  observer active                      |
+  |   updated :  2026-07-29 13:01                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:59:48] WARN  signal noise +12dB
-[10:59:48] SCAN  140.254.50.179 found
-[10:59:48] INFO  uptime 745h 10m
-[10:59:48] INIT  process 8718 attached
-[10:59:48] EXEC  module recon.sh loaded
+[13:01:53] WARN  packet loss 0.3%
+[13:01:53] INIT  process 9494 attached
+[13:01:53] INFO  uptime 22h 45m
+[13:01:53] SCAN  11.251.208.41 found
+[13:01:53] EXEC  module recon.sh loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  79%
-  network recon          █████████░  96%
-  staying invisible      █████████░  94%
-  trust no one           █████████░  94%
-  python                 ███████░░░  77%
-  existential dread      █████████░  94%
+  social engineering     ███████░░░  70%
+  network recon          ███████░░░  76%
+  staying invisible      █████████░  95%
+  trust no one           █████████░  97%
+  python                 █████████░  92%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-29 10:59 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-29 13:01 · auto-updated every 30 min</sub>
