@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  system warming up                    |
-  |   updated :  2026-07-30 09:58                     |
+  |   updated :  2026-07-30 11:50                     |
   |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[09:58:23] INIT  process 9566 attached
-[09:58:23] INFO  uptime 270h 19m
-[09:58:23] EXEC  module trace.go loaded
-[09:58:23] WARN  unknown handshake
-[09:58:23] SCAN  188.234.116.138 found
+[11:50:44] EXEC  module trace.go loaded
+[11:50:44] SCAN  4.178.173.176 found
+[11:50:44] INIT  process 3377 attached
+[11:50:44] WARN  unknown handshake
+[11:50:44] INFO  uptime 941h 21m
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  81%
-  network recon          █████████░  90%
-  staying invisible      █████████░  98%
-  trust no one           ████████░░  88%
-  python                 ████████░░  86%
-  existential dread      █████████░  92%
+  social engineering     ███████░░░  77%
+  network recon          ████████░░  87%
+  staying invisible      ████████░░  86%
+  trust no one           █████████░  99%
+  python                 █████████░  93%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-30 09:58 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-30 11:50 · auto-updated every 30 min</sub>
