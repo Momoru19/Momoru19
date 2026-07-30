@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-07-30 20:11                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-07-30 21:38                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:11:09] WARN  packet loss 0.3%
-[20:11:09] EXEC  module shadow.py loaded
-[20:11:09] INIT  process 2119 attached
-[20:11:09] INFO  uptime 499h 50m
-[20:11:09] SCAN  74.246.26.194 found
+[21:38:55] EXEC  module recon.sh loaded
+[21:38:55] SCAN  71.217.146.197 found
+[21:38:55] WARN  anomaly detected
+[21:38:55] INIT  process 8688 attached
+[21:38:55] INFO  uptime 438h 47m
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "Give a man a bank and he can rob the world."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  93%
-  network recon          ███████░░░  72%
-  staying invisible      ████████░░  81%
-  trust no one           ████████░░  88%
-  python                 █████████░  93%
-  existential dread      █████████░  91%
+  social engineering     █████████░  92%
+  network recon          █████████░  90%
+  staying invisible      █████████░  97%
+  trust no one           ████████░░  89%
+  python                 █████████░  98%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-30 20:11 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-30 21:38 · auto-updated every 30 min</sub>
