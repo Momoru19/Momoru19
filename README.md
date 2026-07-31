@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  system warming up                    |
-  |   updated :  2026-07-31 08:42                     |
+  |   updated :  2026-07-31 11:21                     |
   |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[08:42:11] SCAN  237.91.185.20 found
-[08:42:11] EXEC  module nullify.c loaded
-[08:42:11] WARN  anomaly detected
-[08:42:11] INIT  process 5867 attached
-[08:42:11] INFO  uptime 488h 49m
+[11:21:54] EXEC  module recon.sh loaded
+[11:21:54] SCAN  149.48.3.32 found
+[11:21:54] INFO  uptime 570h 52m
+[11:21:54] WARN  anomaly detected
+[11:21:54] INIT  process 6199 attached
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  78%
-  network recon          █████████░  96%
-  staying invisible      █████████░  92%
-  trust no one           ████████░░  87%
-  python                 ████████░░  86%
+  social engineering     ███████░░░  73%
+  network recon          █████████░  92%
+  staying invisible      ████████░░  86%
+  trust no one           ████████░░  85%
+  python                 █████████░  92%
   existential dread      █████████░  91%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-31 08:42 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-07-31 11:21 · auto-updated every 30 min</sub>
