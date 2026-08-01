@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-07-31 23:54                     |
-  |   origin  :  /dev/null                            |
+  |   status  :  deep scan in progress                |
+  |   updated :  2026-08-01 01:59                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:54:11] INFO  uptime 746h 25m
-[23:54:11] INIT  process 1962 attached
-[23:54:11] EXEC  module shadow.py loaded
-[23:54:11] WARN  unknown handshake
-[23:54:11] SCAN  154.228.19.215 found
+[01:59:11] WARN  anomaly detected
+[01:59:11] INFO  uptime 754h 23m
+[01:59:11] SCAN  245.159.118.173 found
+[01:59:11] EXEC  module recon.sh loaded
+[01:59:11] INIT  process 4215 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  77%
-  network recon          █████████░  94%
-  staying invisible      ████████░░  87%
-  trust no one           █████████░  94%
-  python                 █████████░  94%
+  social engineering     ████████░░  81%
+  network recon          █████████░  90%
+  staying invisible      █████████░  91%
+  trust no one           ████████░░  86%
+  python                 ████████░░  88%
   existential dread      █████████░  97%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-07-31 23:54 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-01 01:59 · auto-updated every 30 min</sub>
