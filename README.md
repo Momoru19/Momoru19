@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-08-02 14:23                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  background process running           |
+  |   updated :  2026-08-02 15:34                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[14:23:40] INIT  process 4092 attached
-[14:23:40] EXEC  module nullify.c loaded
-[14:23:40] WARN  packet loss 0.3%
-[14:23:40] INFO  uptime 362h 30m
-[14:23:40] SCAN  142.127.230.72 found
+[15:34:50] INFO  uptime 653h 58m
+[15:34:50] EXEC  module nullify.c loaded
+[15:34:50] WARN  anomaly detected
+[15:34:50] SCAN  130.200.48.54 found
+[15:34:50] INIT  process 8680 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Give a man a bank and he can rob the world."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  87%
-  network recon          ███████░░░  76%
-  staying invisible      ████████░░  86%
-  trust no one           █████████░  91%
-  python                 ████████░░  84%
-  existential dread      █████████░  97%
+  social engineering     ████████░░  82%
+  network recon          ████████░░  85%
+  staying invisible      █████████░  91%
+  trust no one           ████████░░  85%
+  python                 ████████░░  86%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-02 14:23 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-02 15:34 · auto-updated every 30 min</sub>
