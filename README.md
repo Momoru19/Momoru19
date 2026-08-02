@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-08-02 22:24                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-08-02 23:26                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[22:24:13] SCAN  125.221.41.198 found
-[22:24:13] EXEC  module shadow.py loaded
-[22:24:13] INFO  uptime 34h 33m
-[22:24:13] INIT  process 6395 attached
-[22:24:13] WARN  signal noise +12dB
+[23:26:15] INIT  process 5098 attached
+[23:26:15] INFO  uptime 450h 59m
+[23:26:15] EXEC  module trace.go loaded
+[23:26:15] SCAN  128.88.125.144 found
+[23:26:15] WARN  packet loss 0.3%
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Give a man a bank and he can rob the world."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  64%
+  social engineering     █████████░  94%
   network recon          ███████░░░  73%
-  staying invisible      █████████░  96%
-  trust no one           █████████░  93%
-  python                 ████████░░  82%
-  existential dread      █████████░  90%
+  staying invisible      █████████░  99%
+  trust no one           █████████░  94%
+  python                 █████████░  94%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-02 22:24 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-02 23:26 · auto-updated every 30 min</sub>
