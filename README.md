@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal unstable                      |
-  |   updated :  2026-08-03 20:20                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-08-03 21:36                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:20:10] SCAN  184.54.3.187 found
-[20:20:10] EXEC  module recon.sh loaded
-[20:20:10] INIT  process 6036 attached
-[20:20:10] INFO  uptime 170h 28m
-[20:20:10] WARN  anomaly detected
+[21:36:22] INFO  uptime 790h 52m
+[21:36:22] WARN  anomaly detected
+[21:36:22] SCAN  28.244.59.46 found
+[21:36:22] INIT  process 2713 attached
+[21:36:22] EXEC  module trace.go loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  91%
-  network recon          ███████░░░  70%
-  staying invisible      ████████░░  84%
-  trust no one           █████████░  91%
-  python                 ████████░░  83%
-  existential dread      █████████░  97%
+  social engineering     ████████░░  86%
+  network recon          ███████░░░  73%
+  staying invisible      ████████░░  82%
+  trust no one           █████████░  97%
+  python                 ████████░░  80%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-03 20:20 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-03 21:36 · auto-updated every 30 min</sub>
