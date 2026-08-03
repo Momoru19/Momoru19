@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-08-03 21:36                     |
-  |   origin  :  behind seven proxies                 |
+  |   updated :  2026-08-03 22:53                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:36:22] INFO  uptime 790h 52m
-[21:36:22] WARN  anomaly detected
-[21:36:22] SCAN  28.244.59.46 found
-[21:36:22] INIT  process 2713 attached
-[21:36:22] EXEC  module trace.go loaded
+[22:53:12] SCAN  163.53.192.209 found
+[22:53:12] EXEC  module trace.go loaded
+[22:53:12] WARN  signal noise +12dB
+[22:53:12] INIT  process 3334 attached
+[22:53:12] INFO  uptime 139h 28m
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  86%
-  network recon          ███████░░░  73%
-  staying invisible      ████████░░  82%
-  trust no one           █████████░  97%
-  python                 ████████░░  80%
-  existential dread      █████████░  98%
+  social engineering     █████████░  95%
+  network recon          ███████░░░  75%
+  staying invisible      █████████░  94%
+  trust no one           █████████░  93%
+  python                 █████████░  97%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-03 21:36 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-03 22:53 · auto-updated every 30 min</sub>
