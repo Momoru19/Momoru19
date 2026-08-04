@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  deep scan in progress                |
-  |   updated :  2026-08-04 00:00                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  network dark                         |
+  |   updated :  2026-08-04 03:45                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[00:00:10] WARN  signal noise +12dB
-[00:00:10] INFO  uptime 862h 12m
-[00:00:10] EXEC  module trace.go loaded
-[00:00:10] INIT  process 2990 attached
-[00:00:10] SCAN  8.38.103.192 found
+[03:45:15] INFO  uptime 457h 12m
+[03:45:15] SCAN  50.220.128.202 found
+[03:45:15] EXEC  module recon.sh loaded
+[03:45:15] WARN  unknown handshake
+[03:45:15] INIT  process 5486 attached
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  83%
-  network recon          ████████░░  80%
-  staying invisible      █████████░  96%
-  trust no one           █████████░  90%
-  python                 ████████░░  84%
-  existential dread      █████████░  98%
+  social engineering     ████████░░  80%
+  network recon          █████████░  96%
+  staying invisible      ████████░░  85%
+  trust no one           ████████░░  89%
+  python                 ████████░░  89%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-04 00:00 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-04 03:45 · auto-updated every 30 min</sub>
