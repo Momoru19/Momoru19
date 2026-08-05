@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-08-05 21:40                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-08-05 22:49                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:40:45] WARN  unknown handshake
-[21:40:45] SCAN  145.87.206.16 found
-[21:40:45] INFO  uptime 112h 34m
-[21:40:45] EXEC  module recon.sh loaded
-[21:40:45] INIT  process 4575 attached
+[22:49:37] INFO  uptime 590h 54m
+[22:49:37] SCAN  37.227.253.171 found
+[22:49:37] INIT  process 1324 attached
+[22:49:37] WARN  unknown handshake
+[22:49:37] EXEC  module recon.sh loaded
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  93%
-  network recon          █████████░  95%
+  social engineering     ████████░░  82%
+  network recon          ████████░░  84%
   staying invisible      █████████░  93%
-  trust no one           ████████░░  85%
-  python                 █████████░  93%
-  existential dread      █████████░  96%
+  trust no one           █████████░  99%
+  python                 █████████░  97%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-05 21:40 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-05 22:49 · auto-updated every 30 min</sub>
