@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  network dark                         |
-  |   updated :  2026-08-05 04:57                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  system warming up                    |
+  |   updated :  2026-08-05 07:35                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[04:57:04] SCAN  217.248.118.97 found
-[04:57:04] INIT  process 3126 attached
-[04:57:04] WARN  unknown handshake
-[04:57:04] INFO  uptime 659h 10m
-[04:57:04] EXEC  module recon.sh loaded
+[07:35:32] SCAN  167.81.60.89 found
+[07:35:32] INIT  process 3139 attached
+[07:35:32] WARN  packet loss 0.3%
+[07:35:32] INFO  uptime 918h 38m
+[07:35:32] EXEC  module trace.go loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  71%
-  network recon          █████████░  95%
-  staying invisible      ████████░░  83%
-  trust no one           █████████░  99%
+  social engineering     ████████░░  85%
+  network recon          ████████░░  88%
+  staying invisible      ████████░░  87%
+  trust no one           █████████░  93%
   python                 ████████░░  84%
-  existential dread      █████████░  98%
+  existential dread      █████████░  92%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-05 04:57 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-05 07:35 · auto-updated every 30 min</sub>
