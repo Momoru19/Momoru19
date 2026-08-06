@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  tracking enabled                     |
-  |   updated :  2026-08-06 12:26                     |
-  |   origin  :  your blind spot                      |
+  |   updated :  2026-08-06 14:43                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[12:26:09] SCAN  39.194.75.53 found
-[12:26:09] INFO  uptime 748h 33m
-[12:26:09] WARN  unknown handshake
-[12:26:09] EXEC  module trace.go loaded
-[12:26:09] INIT  process 9146 attached
+[14:43:59] EXEC  module shadow.py loaded
+[14:43:59] SCAN  101.185.149.189 found
+[14:43:59] INIT  process 6105 attached
+[14:43:59] INFO  uptime 360h 14m
+[14:43:59] WARN  packet loss 0.3%
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  72%
-  network recon          ████████░░  83%
-  staying invisible      ████████░░  86%
-  trust no one           ████████░░  85%
-  python                 ████████░░  82%
-  existential dread      █████████░  97%
+  social engineering     ██████░░░░  62%
+  network recon          ███████░░░  74%
+  staying invisible      █████████░  91%
+  trust no one           █████████░  99%
+  python                 ███████░░░  77%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-06 12:26 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-06 14:43 · auto-updated every 30 min</sub>
