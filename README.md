@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  signal unstable                      |
-  |   updated :  2026-08-08 22:54                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   updated :  2026-08-08 23:19                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[22:54:14] WARN  unknown handshake
-[22:54:14] INIT  process 6417 attached
-[22:54:14] INFO  uptime 473h 4m
-[22:54:14] SCAN  67.116.124.9 found
-[22:54:14] EXEC  module shadow.py loaded
+[23:19:11] SCAN  86.221.47.233 found
+[23:19:11] INIT  process 7916 attached
+[23:19:11] WARN  packet loss 0.3%
+[23:19:11] EXEC  module shadow.py loaded
+[23:19:11] INFO  uptime 100h 52m
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  64%
-  network recon          █████████░  93%
-  staying invisible      █████████░  99%
-  trust no one           █████████░  92%
-  python                 █████████░  90%
-  existential dread      █████████░  98%
+  social engineering     ██████░░░░  68%
+  network recon          ████████░░  84%
+  staying invisible      █████████░  98%
+  trust no one           █████████░  98%
+  python                 █████████░  98%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-08 22:54 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-08 23:19 · auto-updated every 30 min</sub>
