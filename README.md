@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-08-08 21:21                     |
-  |   origin  :  /dev/null                            |
+  |   updated :  2026-08-08 21:52                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:21:50] EXEC  module nullify.c loaded
-[21:21:50] INFO  uptime 809h 2m
-[21:21:50] INIT  process 6153 attached
-[21:21:50] WARN  packet loss 0.3%
-[21:21:50] SCAN  37.203.21.105 found
+[21:52:53] WARN  packet loss 0.3%
+[21:52:53] INFO  uptime 402h 37m
+[21:52:53] INIT  process 6325 attached
+[21:52:53] EXEC  module nullify.c loaded
+[21:52:53] SCAN  222.234.114.229 found
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  91%
-  network recon          ████████░░  82%
-  staying invisible      █████████░  95%
-  trust no one           █████████░  98%
-  python                 ████████░░  89%
-  existential dread      ██████████  100%
+  social engineering     ███████░░░  72%
+  network recon          █████████░  96%
+  staying invisible      ████████░░  81%
+  trust no one           ████████░░  85%
+  python                 ████████░░  84%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-08 21:21 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-08 21:52 · auto-updated every 30 min</sub>
