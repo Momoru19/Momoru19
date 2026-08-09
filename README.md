@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-08-09 22:56                     |
-  |   origin  :  behind seven proxies                 |
+  |   updated :  2026-08-09 23:26                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[22:56:56] SCAN  154.251.90.217 found
-[22:56:56] INIT  process 5441 attached
-[22:56:56] WARN  unknown handshake
-[22:56:56] INFO  uptime 829h 49m
-[22:56:56] EXEC  module trace.go loaded
+[23:26:32] EXEC  module nullify.c loaded
+[23:26:32] INIT  process 2281 attached
+[23:26:32] SCAN  194.106.209.117 found
+[23:26:32] INFO  uptime 898h 27m
+[23:26:32] WARN  unknown handshake
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  87%
-  network recon          █████████░  99%
-  staying invisible      ████████░░  87%
-  trust no one           █████████░  95%
+  social engineering     ██████░░░░  61%
+  network recon          █████████░  92%
+  staying invisible      █████████░  93%
+  trust no one           █████████░  90%
   python                 ███████░░░  78%
-  existential dread      █████████░  90%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-09 22:56 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-09 23:26 · auto-updated every 30 min</sub>
