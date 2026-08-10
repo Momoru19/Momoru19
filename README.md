@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-08-10 19:27                     |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-08-10 20:07                     |
   |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:27:32] EXEC  module nullify.c loaded
-[19:27:32] INIT  process 4864 attached
-[19:27:32] SCAN  40.120.101.174 found
-[19:27:32] WARN  signal noise +12dB
-[19:27:32] INFO  uptime 490h 13m
+[20:07:33] SCAN  175.102.87.67 found
+[20:07:33] INFO  uptime 699h 1m
+[20:07:33] WARN  unknown handshake
+[20:07:33] INIT  process 5600 attached
+[20:07:33] EXEC  module trace.go loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  74%
-  network recon          ███████░░░  75%
-  staying invisible      █████████░  93%
-  trust no one           █████████░  99%
-  python                 █████████░  99%
-  existential dread      █████████░  98%
+  social engineering     ███████░░░  79%
+  network recon          ████████░░  87%
+  staying invisible      ████████░░  88%
+  trust no one           █████████░  93%
+  python                 █████████░  95%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-10 19:27 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-10 20:07 · auto-updated every 30 min</sub>
