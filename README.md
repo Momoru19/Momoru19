@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  background process running           |
-  |   updated :  2026-08-10 14:14                     |
-  |   origin  :  /dev/null                            |
+  |   updated :  2026-08-10 15:28                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[14:14:17] EXEC  module trace.go loaded
-[14:14:17] INIT  process 5848 attached
-[14:14:17] SCAN  233.19.140.253 found
-[14:14:17] INFO  uptime 581h 51m
-[14:14:17] WARN  signal noise +12dB
+[15:28:42] SCAN  130.5.0.6 found
+[15:28:42] INFO  uptime 335h 51m
+[15:28:42] EXEC  module recon.sh loaded
+[15:28:42] WARN  packet loss 0.3%
+[15:28:42] INIT  process 6582 attached
 ```
 
 ---
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  70%
-  network recon          ███████░░░  77%
-  staying invisible      █████████░  98%
-  trust no one           █████████░  94%
-  python                 █████████░  92%
+  social engineering     ███████░░░  71%
+  network recon          ███████░░░  79%
+  staying invisible      ████████░░  82%
+  trust no one           ████████░░  85%
+  python                 ████████░░  88%
   existential dread      █████████░  99%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-10 14:14 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-10 15:28 · auto-updated every 30 min</sub>
