@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  data harvesting                      |
-  |   updated :  2026-08-11 19:55                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-08-11 20:35                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:55:04] EXEC  module recon.sh loaded
-[19:55:04] SCAN  182.156.74.110 found
-[19:55:04] WARN  unknown handshake
-[19:55:04] INIT  process 3475 attached
-[19:55:04] INFO  uptime 236h 41m
+[20:35:24] EXEC  module shadow.py loaded
+[20:35:24] INFO  uptime 122h 43m
+[20:35:24] INIT  process 4185 attached
+[20:35:24] SCAN  67.253.183.209 found
+[20:35:24] WARN  unknown handshake
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  61%
-  network recon          ████████░░  85%
-  staying invisible      █████████░  97%
-  trust no one           ████████░░  88%
-  python                 █████████░  94%
-  existential dread      █████████░  97%
+  social engineering     █████████░  91%
+  network recon          ████████░░  89%
+  staying invisible      █████████░  90%
+  trust no one           █████████░  91%
+  python                 █████████░  92%
+  existential dread      █████████░  90%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-11 19:55 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-11 20:35 · auto-updated every 30 min</sub>
