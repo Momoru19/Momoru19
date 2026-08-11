@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  background process running           |
-  |   updated :  2026-08-11 13:50                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   updated :  2026-08-11 14:50                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[13:50:17] WARN  anomaly detected
-[13:50:17] EXEC  module shadow.py loaded
-[13:50:17] INFO  uptime 600h 41m
-[13:50:17] INIT  process 9208 attached
-[13:50:17] SCAN  185.2.231.65 found
+[14:50:21] INIT  process 9367 attached
+[14:50:21] EXEC  module trace.go loaded
+[14:50:21] SCAN  86.249.204.213 found
+[14:50:21] WARN  anomaly detected
+[14:50:21] INFO  uptime 207h 7m
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  99%
-  network recon          ████████░░  89%
-  staying invisible      ████████░░  83%
-  trust no one           █████████░  94%
-  python                 █████████░  92%
-  existential dread      █████████░  96%
+  social engineering     ███████░░░  77%
+  network recon          ███████░░░  78%
+  staying invisible      ████████░░  80%
+  trust no one           ████████░░  85%
+  python                 ████████░░  89%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-11 13:50 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-11 14:50 · auto-updated every 30 min</sub>
