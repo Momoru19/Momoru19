@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  booting identity matrix              |
-  |   updated :  2026-08-13 06:55                     |
+  |   status  :  system warming up                    |
+  |   updated :  2026-08-13 08:13                     |
   |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[06:55:50] INIT  process 9849 attached
-[06:55:50] INFO  uptime 838h 54m
-[06:55:50] WARN  packet loss 0.3%
-[06:55:50] SCAN  251.150.183.181 found
-[06:55:50] EXEC  module recon.sh loaded
+[08:13:48] WARN  anomaly detected
+[08:13:48] INFO  uptime 569h 45m
+[08:13:48] INIT  process 6910 attached
+[08:13:48] EXEC  module nullify.c loaded
+[08:13:48] SCAN  15.53.91.83 found
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  75%
-  network recon          ███████░░░  78%
-  staying invisible      ████████░░  83%
-  trust no one           █████████░  95%
-  python                 ████████░░  88%
-  existential dread      █████████░  90%
+  social engineering     ██████░░░░  65%
+  network recon          █████████░  94%
+  staying invisible      ████████░░  84%
+  trust no one           ████████░░  85%
+  python                 █████████░  92%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-13 06:55 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-13 08:13 · auto-updated every 30 min</sub>
