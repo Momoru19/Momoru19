@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  network dark                         |
-  |   updated :  2026-08-15 04:00                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  ghost mode: ON                       |
+  |   updated :  2026-08-15 04:53                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[04:00:35] WARN  anomaly detected
-[04:00:35] EXEC  module recon.sh loaded
-[04:00:35] INFO  uptime 628h 39m
-[04:00:35] SCAN  38.27.185.32 found
-[04:00:35] INIT  process 1697 attached
+[04:53:44] EXEC  module shadow.py loaded
+[04:53:44] SCAN  151.150.252.221 found
+[04:53:44] INFO  uptime 134h 54m
+[04:53:44] INIT  process 6803 attached
+[04:53:44] WARN  anomaly detected
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  91%
-  network recon          ████████░░  87%
-  staying invisible      █████████░  93%
-  trust no one           █████████░  97%
-  python                 █████████░  94%
-  existential dread      █████████░  94%
+  social engineering     ███████░░░  70%
+  network recon          █████████░  96%
+  staying invisible      █████████░  92%
+  trust no one           █████████░  94%
+  python                 ███████░░░  76%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-15 04:00 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-15 04:53 · auto-updated every 30 min</sub>
