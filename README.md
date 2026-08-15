@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-08-15 14:13                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   status  :  background process running           |
+  |   updated :  2026-08-15 14:44                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[14:13:07] INFO  uptime 652h 29m
-[14:13:07] WARN  unknown handshake
-[14:13:07] SCAN  54.7.53.121 found
-[14:13:07] EXEC  module nullify.c loaded
-[14:13:07] INIT  process 7020 attached
+[14:44:54] INIT  process 2392 attached
+[14:44:54] SCAN  21.69.237.68 found
+[14:44:54] INFO  uptime 274h 10m
+[14:44:54] EXEC  module recon.sh loaded
+[14:44:54] WARN  anomaly detected
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  74%
-  network recon          ████████░░  80%
-  staying invisible      ████████░░  82%
-  trust no one           █████████░  96%
-  python                 ███████░░░  78%
-  existential dread      █████████░  98%
+  social engineering     █████████░  94%
+  network recon          ████████░░  87%
+  staying invisible      █████████░  92%
+  trust no one           █████████░  98%
+  python                 █████████░  96%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-15 14:13 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-15 14:44 · auto-updated every 30 min</sub>
