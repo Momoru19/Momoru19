@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal unstable                      |
-  |   updated :  2026-08-15 23:11                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-08-15 23:41                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:11:51] INIT  process 7208 attached
-[23:11:51] SCAN  35.198.171.173 found
-[23:11:51] INFO  uptime 542h 51m
-[23:11:51] EXEC  module recon.sh loaded
-[23:11:51] WARN  unknown handshake
+[23:41:15] SCAN  128.10.6.16 found
+[23:41:15] WARN  anomaly detected
+[23:41:15] INIT  process 2358 attached
+[23:41:15] INFO  uptime 939h 32m
+[23:41:15] EXEC  module recon.sh loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  76%
-  network recon          ███████░░░  72%
-  staying invisible      █████████░  92%
-  trust no one           █████████░  93%
+  social engineering     ████████░░  84%
+  network recon          █████████░  96%
+  staying invisible      ████████░░  86%
+  trust no one           █████████░  92%
   python                 ████████░░  85%
-  existential dread      █████████░  92%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-15 23:11 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-15 23:41 · auto-updated every 30 min</sub>
