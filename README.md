@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  morning recon                        |
-  |   updated :  2026-08-16 08:53                     |
-  |   origin  :  /dev/null                            |
+  |   updated :  2026-08-16 09:18                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[08:53:58] SCAN  245.43.219.78 found
-[08:53:58] WARN  packet loss 0.3%
-[08:53:58] INFO  uptime 988h 40m
-[08:53:58] EXEC  module shadow.py loaded
-[08:53:58] INIT  process 9419 attached
+[09:18:21] SCAN  61.70.227.32 found
+[09:18:21] WARN  anomaly detected
+[09:18:21] INFO  uptime 152h 45m
+[09:18:21] INIT  process 9974 attached
+[09:18:21] EXEC  module recon.sh loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  71%
-  network recon          █████████░  99%
-  staying invisible      ████████░░  83%
-  trust no one           █████████░  99%
-  python                 ████████░░  86%
-  existential dread      █████████░  92%
+  social engineering     ███████░░░  70%
+  network recon          ████████░░  80%
+  staying invisible      ████████░░  80%
+  trust no one           █████████░  94%
+  python                 ████████░░  83%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-16 08:53 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-16 09:18 · auto-updated every 30 min</sub>
