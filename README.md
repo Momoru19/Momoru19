@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal unstable                      |
-  |   updated :  2026-08-16 19:14                     |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-08-16 19:40                     |
   |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:14:29] INIT  process 3378 attached
-[19:14:29] EXEC  module shadow.py loaded
-[19:14:29] WARN  packet loss 0.3%
-[19:14:29] INFO  uptime 458h 10m
-[19:14:29] SCAN  183.137.73.234 found
+[19:40:45] SCAN  90.223.65.139 found
+[19:40:45] INIT  process 2072 attached
+[19:40:45] EXEC  module nullify.c loaded
+[19:40:45] INFO  uptime 199h 39m
+[19:40:45] WARN  anomaly detected
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  77%
-  network recon          ████████░░  88%
-  staying invisible      █████████░  98%
+  social engineering     ████████░░  85%
+  network recon          ███████░░░  79%
+  staying invisible      █████████░  99%
   trust no one           ████████░░  89%
   python                 █████████░  95%
-  existential dread      ██████████  100%
+  existential dread      █████████░  92%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-16 19:14 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-16 19:40 · auto-updated every 30 min</sub>
