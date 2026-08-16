@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal unstable                      |
-  |   updated :  2026-08-16 18:15                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-08-16 18:52                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[18:15:27] INFO  uptime 883h 16m
-[18:15:27] SCAN  150.30.89.177 found
-[18:15:27] EXEC  module shadow.py loaded
-[18:15:27] INIT  process 3049 attached
-[18:15:27] WARN  anomaly detected
+[18:52:22] EXEC  module shadow.py loaded
+[18:52:22] INFO  uptime 528h 21m
+[18:52:22] INIT  process 7215 attached
+[18:52:22] SCAN  92.17.128.26 found
+[18:52:22] WARN  packet loss 0.3%
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Give a man a bank and he can rob the world."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  89%
-  network recon          ████████░░  87%
-  staying invisible      █████████░  93%
+  social engineering     ██████░░░░  62%
+  network recon          █████████░  90%
+  staying invisible      ████████░░  86%
   trust no one           █████████░  92%
-  python                 █████████░  98%
-  existential dread      █████████░  96%
+  python                 █████████░  95%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-16 18:15 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-16 18:52 · auto-updated every 30 min</sub>
