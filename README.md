@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-08-17 22:47                     |
-  |   origin  :  /dev/null                            |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-08-17 23:14                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[22:47:06] SCAN  170.201.80.27 found
-[22:47:06] WARN  packet loss 0.3%
-[22:47:06] INIT  process 6363 attached
-[22:47:06] EXEC  module nullify.c loaded
-[22:47:06] INFO  uptime 694h 49m
+[23:14:02] WARN  unknown handshake
+[23:14:02] EXEC  module nullify.c loaded
+[23:14:02] SCAN  5.85.160.252 found
+[23:14:02] INIT  process 1448 attached
+[23:14:02] INFO  uptime 877h 12m
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  73%
-  network recon          ███████░░░  72%
-  staying invisible      ████████░░  84%
-  trust no one           █████████░  97%
-  python                 ███████░░░  79%
-  existential dread      █████████░  94%
+  social engineering     ████████░░  81%
+  network recon          █████████░  91%
+  staying invisible      ████████░░  81%
+  trust no one           █████████░  96%
+  python                 █████████░  93%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓░░░░░░░░░ distracted
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-17 22:47 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-17 23:14 · auto-updated every 30 min</sub>
