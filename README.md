@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  sleeping process detected            |
-  |   updated :  2026-08-18 04:59                     |
-  |   origin  :  /dev/null                            |
+  |   status  :  deep scan in progress                |
+  |   updated :  2026-08-18 05:32                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[04:59:45] EXEC  module recon.sh loaded
-[04:59:45] INFO  uptime 208h 27m
-[04:59:45] WARN  anomaly detected
-[04:59:45] SCAN  8.71.144.17 found
-[04:59:45] INIT  process 1151 attached
+[05:32:40] SCAN  219.47.48.112 found
+[05:32:40] EXEC  module shadow.py loaded
+[05:32:40] WARN  anomaly detected
+[05:32:40] INFO  uptime 502h 12m
+[05:32:40] INIT  process 8417 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  84%
-  network recon          ████████░░  89%
-  staying invisible      ████████░░  87%
-  trust no one           █████████░  90%
-  python                 ███████░░░  78%
-  existential dread      ██████████  100%
+  social engineering     █████████░  95%
+  network recon          ████████░░  81%
+  staying invisible      ████████░░  83%
+  trust no one           █████████░  98%
+  python                 ████████░░  84%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-18 04:59 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-18 05:32 · auto-updated every 30 min</sub>
