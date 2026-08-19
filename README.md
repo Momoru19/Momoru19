@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  sleeping process detected            |
-  |   updated :  2026-08-19 04:04                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  deep scan in progress                |
+  |   updated :  2026-08-19 04:59                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[04:04:51] WARN  signal noise +12dB
-[04:04:51] INIT  process 1254 attached
-[04:04:51] EXEC  module shadow.py loaded
-[04:04:51] SCAN  72.115.200.251 found
-[04:04:51] INFO  uptime 800h 20m
+[04:59:37] INIT  process 6366 attached
+[04:59:37] WARN  unknown handshake
+[04:59:37] EXEC  module shadow.py loaded
+[04:59:37] INFO  uptime 382h 15m
+[04:59:37] SCAN  151.118.30.202 found
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  86%
-  network recon          ████████░░  87%
-  staying invisible      █████████░  97%
-  trust no one           █████████░  97%
-  python                 ████████░░  84%
-  existential dread      █████████░  97%
+  social engineering     ████████░░  87%
+  network recon          █████████░  99%
+  staying invisible      ████████░░  87%
+  trust no one           ████████░░  86%
+  python                 ████████░░  89%
+  existential dread      █████████░  90%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-19 04:04 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-19 04:59 · auto-updated every 30 min</sub>
