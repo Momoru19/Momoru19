@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-08-20 20:18                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-08-20 20:52                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:18:13] EXEC  module nullify.c loaded
-[20:18:13] SCAN  38.160.131.22 found
-[20:18:13] INFO  uptime 956h 29m
-[20:18:13] INIT  process 2621 attached
-[20:18:13] WARN  anomaly detected
+[20:52:59] INFO  uptime 781h 7m
+[20:52:59] WARN  packet loss 0.3%
+[20:52:59] EXEC  module trace.go loaded
+[20:52:59] INIT  process 1745 attached
+[20:52:59] SCAN  118.227.166.10 found
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "Hello, friend."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  91%
-  network recon          █████████░  93%
-  staying invisible      █████████░  94%
+  social engineering     ███████░░░  72%
+  network recon          ████████░░  81%
+  staying invisible      █████████░  93%
   trust no one           █████████░  92%
-  python                 █████████░  92%
-  existential dread      █████████░  91%
+  python                 ████████░░  81%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-20 20:18 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-20 20:52 · auto-updated every 30 min</sub>
