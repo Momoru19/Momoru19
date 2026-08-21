@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  tracking enabled                     |
-  |   updated :  2026-08-21 14:04                     |
-  |   origin  :  somewhere between packets            |
+  |   updated :  2026-08-21 15:00                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[14:04:52] INIT  process 5453 attached
-[14:04:52] INFO  uptime 628h 24m
-[14:04:52] WARN  unknown handshake
-[14:04:52] SCAN  238.60.234.208 found
-[14:04:52] EXEC  module trace.go loaded
+[15:00:38] INFO  uptime 364h 7m
+[15:00:38] INIT  process 4554 attached
+[15:00:38] EXEC  module shadow.py loaded
+[15:00:38] SCAN  253.9.171.144 found
+[15:00:38] WARN  unknown handshake
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  73%
-  network recon          ████████░░  82%
-  staying invisible      ████████░░  80%
-  trust no one           █████████░  99%
-  python                 ███████░░░  75%
-  existential dread      █████████░  94%
+  social engineering     ████████░░  88%
+  network recon          ████████░░  80%
+  staying invisible      █████████░  91%
+  trust no one           ████████░░  86%
+  python                 █████████░  99%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-21 14:04 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-21 15:00 · auto-updated every 30 min</sub>
