@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal unstable                      |
-  |   updated :  2026-08-21 20:46                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-08-21 21:14                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:46:04] SCAN  226.172.211.201 found
-[20:46:04] WARN  anomaly detected
-[20:46:04] EXEC  module shadow.py loaded
-[20:46:04] INIT  process 4588 attached
-[20:46:04] INFO  uptime 562h 19m
+[21:14:25] SCAN  141.199.67.230 found
+[21:14:25] WARN  anomaly detected
+[21:14:25] INIT  process 5934 attached
+[21:14:25] INFO  uptime 945h 48m
+[21:14:25] EXEC  module shadow.py loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  81%
-  network recon          ███████░░░  70%
-  staying invisible      ████████░░  83%
-  trust no one           █████████░  90%
-  python                 █████████░  92%
-  existential dread      █████████░  92%
+  social engineering     ███████░░░  71%
+  network recon          ███████░░░  74%
+  staying invisible      █████████░  95%
+  trust no one           █████████░  93%
+  python                 ████████░░  87%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-21 20:46 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-21 21:14 · auto-updated every 30 min</sub>
