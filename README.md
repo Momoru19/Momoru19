@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  system warming up                    |
-  |   updated :  2026-08-21 10:28                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  morning recon                        |
+  |   updated :  2026-08-21 10:57                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:28:49] SCAN  168.180.180.34 found
-[10:28:49] INFO  uptime 577h 10m
-[10:28:49] WARN  signal noise +12dB
-[10:28:49] EXEC  module recon.sh loaded
-[10:28:49] INIT  process 3385 attached
+[10:57:43] EXEC  module recon.sh loaded
+[10:57:43] WARN  anomaly detected
+[10:57:43] INIT  process 4939 attached
+[10:57:43] SCAN  240.185.104.90 found
+[10:57:43] INFO  uptime 394h 34m
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  97%
-  network recon          ███████░░░  77%
-  staying invisible      ████████░░  80%
-  trust no one           █████████░  97%
-  python                 ████████░░  87%
-  existential dread      █████████░  99%
+  social engineering     ██████░░░░  61%
+  network recon          ████████░░  83%
+  staying invisible      █████████░  99%
+  trust no one           ████████░░  85%
+  python                 ███████░░░  78%
+  existential dread      █████████░  96%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-21 10:28 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-21 10:57 · auto-updated every 30 min</sub>
