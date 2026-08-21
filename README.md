@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  signal weak                          |
-  |   updated :  2026-08-21 09:58                     |
+  |   status  :  system warming up                    |
+  |   updated :  2026-08-21 10:28                     |
   |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[09:58:05] WARN  signal noise +12dB
-[09:58:05] EXEC  module nullify.c loaded
-[09:58:05] SCAN  245.229.110.163 found
-[09:58:05] INIT  process 1488 attached
-[09:58:05] INFO  uptime 734h 50m
+[10:28:49] SCAN  168.180.180.34 found
+[10:28:49] INFO  uptime 577h 10m
+[10:28:49] WARN  signal noise +12dB
+[10:28:49] EXEC  module recon.sh loaded
+[10:28:49] INIT  process 3385 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  75%
-  network recon          █████████░  93%
-  staying invisible      ████████░░  85%
-  trust no one           █████████░  99%
-  python                 ████████░░  83%
-  existential dread      ██████████  100%
+  social engineering     █████████░  97%
+  network recon          ███████░░░  77%
+  staying invisible      ████████░░  80%
+  trust no one           █████████░  97%
+  python                 ████████░░  87%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-21 09:58 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-21 10:28 · auto-updated every 30 min</sub>
