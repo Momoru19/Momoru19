@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  system warming up                    |
-  |   updated :  2026-08-22 10:13                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   updated :  2026-08-22 10:46                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:13:33] INFO  uptime 848h 21m
-[10:13:33] WARN  packet loss 0.3%
-[10:13:33] EXEC  module nullify.c loaded
-[10:13:33] SCAN  209.117.157.184 found
-[10:13:33] INIT  process 1191 attached
+[10:46:32] EXEC  module recon.sh loaded
+[10:46:32] INFO  uptime 84h 24m
+[10:46:32] INIT  process 8919 attached
+[10:46:32] WARN  signal noise +12dB
+[10:46:32] SCAN  45.25.141.21 found
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  78%
+  social engineering     ████████░░  82%
   network recon          █████████░  93%
-  staying invisible      █████████░  92%
-  trust no one           ████████░░  88%
-  python                 ████████░░  85%
-  existential dread      █████████░  94%
+  staying invisible      █████████░  98%
+  trust no one           █████████░  95%
+  python                 ████████░░  82%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-22 10:13 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-22 10:46 · auto-updated every 30 min</sub>
