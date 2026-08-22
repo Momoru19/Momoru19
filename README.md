@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  tracking enabled                     |
-  |   updated :  2026-08-22 17:42                     |
-  |   origin  :  somewhere between packets            |
+  |   status  :  evening crawl                        |
+  |   updated :  2026-08-22 18:15                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:42:55] INIT  process 8140 attached
-[17:42:55] SCAN  37.85.219.130 found
-[17:42:55] WARN  packet loss 0.3%
-[17:42:55] INFO  uptime 714h 42m
-[17:42:55] EXEC  module trace.go loaded
+[18:15:48] INFO  uptime 315h 28m
+[18:15:48] INIT  process 1356 attached
+[18:15:48] EXEC  module recon.sh loaded
+[18:15:48] WARN  unknown handshake
+[18:15:48] SCAN  29.30.168.49 found
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  76%
-  network recon          █████████░  90%
-  staying invisible      ████████░░  82%
-  trust no one           █████████░  96%
-  python                 ████████░░  85%
-  existential dread      ██████████  100%
+  social engineering     █████████░  96%
+  network recon          █████████░  91%
+  staying invisible      █████████░  95%
+  trust no one           █████████░  93%
+  python                 █████████░  98%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-22 17:42 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-22 18:15 · auto-updated every 30 min</sub>
