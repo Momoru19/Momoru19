@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  observer active                      |
-  |   updated :  2026-08-23 16:48                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  tracking enabled                     |
+  |   updated :  2026-08-23 17:12                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:48:17] SCAN  214.250.142.206 found
-[16:48:17] INFO  uptime 247h 38m
-[16:48:17] WARN  signal noise +12dB
-[16:48:17] EXEC  module nullify.c loaded
-[16:48:17] INIT  process 7422 attached
+[17:12:41] WARN  signal noise +12dB
+[17:12:41] SCAN  163.151.152.26 found
+[17:12:41] EXEC  module nullify.c loaded
+[17:12:41] INIT  process 8731 attached
+[17:12:41] INFO  uptime 276h 3m
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  88%
-  network recon          █████████░  96%
-  staying invisible      █████████░  93%
-  trust no one           █████████░  97%
-  python                 ███████░░░  79%
-  existential dread      █████████░  95%
+  social engineering     █████████░  96%
+  network recon          ████████░░  87%
+  staying invisible      █████████░  90%
+  trust no one           █████████░  92%
+  python                 ████████░░  89%
+  existential dread      █████████░  92%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-23 16:48 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-23 17:12 · auto-updated every 30 min</sub>
