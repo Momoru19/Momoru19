@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-08-23 13:08                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  observer active                      |
+  |   updated :  2026-08-23 13:50                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[13:08:12] EXEC  module recon.sh loaded
-[13:08:12] SCAN  80.94.0.116 found
-[13:08:12] WARN  packet loss 0.3%
-[13:08:12] INIT  process 2054 attached
-[13:08:12] INFO  uptime 170h 52m
+[13:50:49] SCAN  74.2.57.69 found
+[13:50:49] INIT  process 8351 attached
+[13:50:49] WARN  signal noise +12dB
+[13:50:49] INFO  uptime 490h 28m
+[13:50:49] EXEC  module shadow.py loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  84%
-  network recon          ███████░░░  74%
-  staying invisible      █████████░  97%
+  social engineering     ███████░░░  72%
+  network recon          ███████░░░  71%
+  staying invisible      █████████░  95%
   trust no one           █████████░  96%
-  python                 ████████░░  86%
-  existential dread      ██████████  100%
+  python                 █████████░  92%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-23 13:08 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-23 13:50 · auto-updated every 30 min</sub>
