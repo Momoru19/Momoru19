@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  observer active                      |
-  |   updated :  2026-08-24 15:29                     |
+  |   updated :  2026-08-24 16:04                     |
   |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[15:29:32] WARN  signal noise +12dB
-[15:29:32] INFO  uptime 5h 20m
-[15:29:32] INIT  process 7718 attached
-[15:29:32] SCAN  19.43.244.47 found
-[15:29:32] EXEC  module recon.sh loaded
+[16:04:23] INIT  process 1956 attached
+[16:04:23] SCAN  245.155.182.97 found
+[16:04:23] INFO  uptime 612h 12m
+[16:04:23] EXEC  module recon.sh loaded
+[16:04:23] WARN  packet loss 0.3%
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "Every hacker has a specific MO."
 
 </div>
 
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  87%
-  network recon          ████████░░  89%
-  staying invisible      ████████░░  85%
-  trust no one           ████████░░  89%
-  python                 ████████░░  83%
+  social engineering     ███████░░░  76%
+  network recon          █████████░  94%
+  staying invisible      █████████░  97%
+  trust no one           █████████░  90%
+  python                 ███████░░░  75%
   existential dread      █████████░  93%
 ```
 
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-24 15:29 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-24 16:04 · auto-updated every 30 min</sub>
