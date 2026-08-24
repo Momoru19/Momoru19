@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  tracking enabled                     |
-  |   updated :  2026-08-24 17:54                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-08-24 18:26                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:54:54] SCAN  202.229.50.169 found
-[17:54:54] WARN  unknown handshake
-[17:54:54] INFO  uptime 195h 14m
-[17:54:54] INIT  process 6210 attached
-[17:54:54] EXEC  module nullify.c loaded
+[18:26:19] SCAN  161.225.109.100 found
+[18:26:19] WARN  signal noise +12dB
+[18:26:19] INIT  process 8993 attached
+[18:26:19] INFO  uptime 766h 31m
+[18:26:19] EXEC  module nullify.c loaded
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Hello, friend."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  72%
-  network recon          ████████░░  81%
-  staying invisible      █████████░  98%
-  trust no one           ████████░░  87%
-  python                 ████████░░  82%
-  existential dread      █████████░  94%
+  social engineering     ██████░░░░  61%
+  network recon          ████████░░  83%
+  staying invisible      ████████░░  89%
+  trust no one           ████████░░  89%
+  python                 █████████░  96%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-24 17:54 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-24 18:26 · auto-updated every 30 min</sub>
