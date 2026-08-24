@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  sleeping process detected            |
-  |   updated :  2026-08-24 04:21                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  ghost mode: ON                       |
+  |   updated :  2026-08-24 05:08                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[04:21:00] WARN  unknown handshake
-[04:21:00] INIT  process 7878 attached
-[04:21:00] INFO  uptime 7h 22m
-[04:21:00] SCAN  143.253.222.183 found
-[04:21:00] EXEC  module nullify.c loaded
+[05:08:35] INIT  process 3414 attached
+[05:08:35] WARN  packet loss 0.3%
+[05:08:35] EXEC  module shadow.py loaded
+[05:08:35] INFO  uptime 734h 53m
+[05:08:35] SCAN  185.243.30.140 found
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  74%
-  network recon          ███████░░░  74%
-  staying invisible      █████████░  94%
-  trust no one           █████████░  98%
-  python                 ████████░░  81%
-  existential dread      █████████░  90%
+  social engineering     ████████░░  85%
+  network recon          █████████░  95%
+  staying invisible      █████████░  90%
+  trust no one           █████████░  95%
+  python                 █████████░  90%
+  existential dread      █████████░  92%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-24 04:21 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-24 05:08 · auto-updated every 30 min</sub>
