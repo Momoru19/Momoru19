@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-08-26 14:35                     |
+  |   status  :  surveillance mode                    |
+  |   updated :  2026-08-26 16:10                     |
   |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[14:35:12] INIT  process 4137 attached
-[14:35:12] SCAN  135.57.143.179 found
-[14:35:12] WARN  unknown handshake
-[14:35:12] EXEC  module nullify.c loaded
-[14:35:12] INFO  uptime 315h 0m
+[16:10:31] EXEC  module shadow.py loaded
+[16:10:31] INFO  uptime 676h 13m
+[16:10:31] INIT  process 7906 attached
+[16:10:31] SCAN  164.240.174.50 found
+[16:10:31] WARN  packet loss 0.3%
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  88%
-  network recon          ████████░░  86%
+  social engineering     ███████░░░  78%
+  network recon          ███████░░░  77%
   staying invisible      ████████░░  85%
-  trust no one           ████████░░  88%
-  python                 ███████░░░  78%
-  existential dread      █████████░  92%
+  trust no one           █████████░  91%
+  python                 █████████░  96%
+  existential dread      █████████░  91%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓░░ deep in it
+  mood      : ▓░░░░░░░░░ distracted
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-26 14:35 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-26 16:10 · auto-updated every 30 min</sub>
