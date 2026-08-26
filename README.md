@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-08-25 23:45                     |
-  |   origin  :  behind seven proxies                 |
+  |   status  :  network dark                         |
+  |   updated :  2026-08-26 00:44                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[23:45:42] INFO  uptime 580h 5m
-[23:45:42] SCAN  185.115.101.188 found
-[23:45:42] INIT  process 7346 attached
-[23:45:42] EXEC  module trace.go loaded
-[23:45:42] WARN  anomaly detected
+[00:44:42] EXEC  module shadow.py loaded
+[00:44:42] INFO  uptime 532h 52m
+[00:44:42] WARN  signal noise +12dB
+[00:44:42] SCAN  9.157.218.140 found
+[00:44:42] INIT  process 8586 attached
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Give a man a bank and he can rob the world."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  66%
-  network recon          ███████░░░  71%
-  staying invisible      █████████░  95%
-  trust no one           █████████░  91%
-  python                 ███████░░░  75%
-  existential dread      █████████░  90%
+  social engineering     ███████░░░  71%
+  network recon          ███████░░░  75%
+  staying invisible      ████████░░  88%
+  trust no one           ████████░░  86%
+  python                 ███████░░░  79%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-25 23:45 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-26 00:44 · auto-updated every 30 min</sub>
