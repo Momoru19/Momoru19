@@ -8,7 +8,7 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  unknown entity detected              |
-  |   updated :  2026-08-29 21:50                     |
+  |   updated :  2026-08-29 23:44                     |
   |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[21:50:19] WARN  packet loss 0.3%
-[21:50:19] INFO  uptime 139h 14m
-[21:50:19] SCAN  39.179.222.144 found
-[21:50:19] INIT  process 3522 attached
-[21:50:19] EXEC  module trace.go loaded
+[23:44:06] INFO  uptime 552h 45m
+[23:44:06] SCAN  147.154.173.110 found
+[23:44:06] INIT  process 4815 attached
+[23:44:06] EXEC  module recon.sh loaded
+[23:44:06] WARN  packet loss 0.3%
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  79%
-  network recon          ███████░░░  78%
-  staying invisible      █████████░  99%
-  trust no one           ████████░░  85%
-  python                 ███████░░░  79%
-  existential dread      █████████░  98%
+  social engineering     ██████░░░░  65%
+  network recon          ████████░░  85%
+  staying invisible      ████████░░  83%
+  trust no one           █████████░  99%
+  python                 ████████░░  80%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-29 21:50 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-29 23:44 · auto-updated every 30 min</sub>
