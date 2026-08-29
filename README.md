@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-08-29 19:01                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-08-29 21:50                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:01:04] INFO  uptime 842h 5m
-[19:01:04] SCAN  13.110.160.107 found
-[19:01:04] INIT  process 1636 attached
-[19:01:04] WARN  signal noise +12dB
-[19:01:04] EXEC  module recon.sh loaded
+[21:50:19] WARN  packet loss 0.3%
+[21:50:19] INFO  uptime 139h 14m
+[21:50:19] SCAN  39.179.222.144 found
+[21:50:19] INIT  process 3522 attached
+[21:50:19] EXEC  module trace.go loaded
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "I am not the good guy."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  84%
-  network recon          █████████░  99%
-  staying invisible      █████████░  94%
-  trust no one           ████████░░  89%
-  python                 █████████░  99%
-  existential dread      █████████░  97%
+  social engineering     ███████░░░  79%
+  network recon          ███████░░░  78%
+  staying invisible      █████████░  99%
+  trust no one           ████████░░  85%
+  python                 ███████░░░  79%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓░░░░░ paranoid
+  mood      : ▓▓▓▓▓▓▓░░░ focused
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-29 19:01 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-29 21:50 · auto-updated every 30 min</sub>
