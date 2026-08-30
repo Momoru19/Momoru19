@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  deep scan in progress                |
-  |   updated :  2026-08-30 02:37                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  signal weak                          |
+  |   updated :  2026-08-30 08:43                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[02:37:13] WARN  signal noise +12dB
-[02:37:13] INFO  uptime 842h 13m
-[02:37:13] INIT  process 5034 attached
-[02:37:13] EXEC  module nullify.c loaded
-[02:37:13] SCAN  183.176.231.211 found
+[08:43:36] INFO  uptime 292h 35m
+[08:43:36] WARN  anomaly detected
+[08:43:36] EXEC  module nullify.c loaded
+[08:43:36] INIT  process 9831 attached
+[08:43:36] SCAN  12.106.23.194 found
 ```
 
 ---
 
 <div align="center">
 
-> "I am not the good guy."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -41,11 +41,11 @@ $ tail -f /var/log/momoru.log
  SKILL MATRIX
  -----------------------------------------------
   social engineering     ███████░░░  71%
-  network recon          █████████░  95%
-  staying invisible      ████████░░  80%
-  trust no one           █████████░  99%
-  python                 █████████░  97%
-  existential dread      █████████░  91%
+  network recon          ███████░░░  73%
+  staying invisible      █████████░  91%
+  trust no one           █████████░  96%
+  python                 ████████░░  84%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-08-30 02:37 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-08-30 08:43 · auto-updated every 30 min</sub>
