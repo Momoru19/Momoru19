@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  sleeping process detected            |
-  |   updated :  2026-09-01 00:57                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  system warming up                    |
+  |   updated :  2026-09-01 06:01                     |
+  |   origin  :  node 127.0.0.1 loopback              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[00:57:48] INFO  uptime 804h 55m
-[00:57:48] WARN  unknown handshake
-[00:57:48] SCAN  214.52.209.136 found
-[00:57:48] EXEC  module trace.go loaded
-[00:57:48] INIT  process 5418 attached
+[06:01:08] INIT  process 3158 attached
+[06:01:08] WARN  signal noise +12dB
+[06:01:08] INFO  uptime 354h 15m
+[06:01:08] EXEC  module recon.sh loaded
+[06:01:08] SCAN  130.7.69.186 found
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  69%
-  network recon          █████████░  91%
-  staying invisible      █████████░  95%
-  trust no one           █████████░  96%
-  python                 █████████░  99%
-  existential dread      █████████░  91%
+  social engineering     ██████░░░░  65%
+  network recon          █████████░  93%
+  staying invisible      ████████░░  81%
+  trust no one           █████████░  98%
+  python                 █████████░  93%
+  existential dread      █████████░  97%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-09-01 00:57 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-09-01 06:01 · auto-updated every 30 min</sub>
