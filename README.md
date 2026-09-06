@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  observer active                      |
-  |   updated :  2026-09-06 16:01                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-09-06 18:26                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:01:12] INIT  process 9170 attached
-[16:01:12] INFO  uptime 344h 50m
-[16:01:12] SCAN  14.203.33.90 found
-[16:01:12] WARN  signal noise +12dB
-[16:01:12] EXEC  module shadow.py loaded
+[18:26:50] INIT  process 8062 attached
+[18:26:50] SCAN  219.163.168.38 found
+[18:26:50] WARN  unknown handshake
+[18:26:50] EXEC  module shadow.py loaded
+[18:26:50] INFO  uptime 94h 2m
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "Control is an illusion."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  82%
-  network recon          ████████░░  80%
-  staying invisible      ████████░░  88%
-  trust no one           █████████░  93%
+  social engineering     █████████░  96%
+  network recon          ████████░░  89%
+  staying invisible      ████████░░  86%
+  trust no one           █████████░  98%
   python                 ████████░░  89%
-  existential dread      █████████░  92%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-09-06 16:01 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-09-06 18:26 · auto-updated every 30 min</sub>
