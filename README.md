@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  evening crawl                        |
-  |   updated :  2026-09-06 20:37                     |
-  |   origin  :  node 127.0.0.1 loopback              |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-09-06 22:34                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:37:05] EXEC  module recon.sh loaded
-[20:37:05] SCAN  239.42.131.55 found
-[20:37:05] WARN  packet loss 0.3%
-[20:37:05] INIT  process 3929 attached
-[20:37:05] INFO  uptime 824h 33m
+[22:34:21] SCAN  50.206.34.112 found
+[22:34:21] EXEC  module recon.sh loaded
+[22:34:21] WARN  anomaly detected
+[22:34:21] INIT  process 6611 attached
+[22:34:21] INFO  uptime 417h 49m
 ```
 
 ---
@@ -40,11 +40,11 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  71%
-  network recon          ████████░░  85%
-  staying invisible      █████████░  97%
-  trust no one           █████████░  99%
-  python                 █████████░  95%
+  social engineering     ████████░░  83%
+  network recon          ███████░░░  71%
+  staying invisible      ████████░░  81%
+  trust no one           █████████░  93%
+  python                 █████████░  94%
   existential dread      █████████░  94%
 ```
 
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-09-06 20:37 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-09-06 22:34 · auto-updated every 30 min</sub>
