@@ -8,8 +8,8 @@
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
   |   status  :  data harvesting                      |
-  |   updated :  2026-09-22 19:00                     |
-  |   origin  :  /dev/null                            |
+  |   updated :  2026-09-22 22:20                     |
+  |   origin  :  behind seven proxies                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,11 +20,11 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[19:00:36] WARN  packet loss 0.3%
-[19:00:36] INFO  uptime 63h 24m
-[19:00:36] EXEC  module recon.sh loaded
-[19:00:36] INIT  process 9010 attached
-[19:00:36] SCAN  31.52.94.221 found
+[22:20:46] EXEC  module recon.sh loaded
+[22:20:46] INIT  process 2389 attached
+[22:20:46] SCAN  82.49.199.218 found
+[22:20:46] WARN  anomaly detected
+[22:20:46] INFO  uptime 999h 40m
 ```
 
 ---
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  86%
-  network recon          ████████░░  89%
-  staying invisible      █████████░  99%
-  trust no one           █████████░  92%
-  python                 ███████░░░  78%
-  existential dread      █████████░  97%
+  social engineering     ████████░░  81%
+  network recon          ███████░░░  71%
+  staying invisible      ████████░░  86%
+  trust no one           █████████░  95%
+  python                 █████████░  92%
+  existential dread      █████████░  98%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-09-22 19:00 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-09-22 22:20 · auto-updated every 30 min</sub>
