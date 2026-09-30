@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  background process running           |
-  |   updated :  2026-09-30 16:10                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-09-30 20:54                     |
+  |   origin  :  /dev/null                            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[16:10:16] WARN  packet loss 0.3%
-[16:10:16] EXEC  module trace.go loaded
-[16:10:16] SCAN  65.243.188.59 found
-[16:10:16] INFO  uptime 585h 25m
-[16:10:16] INIT  process 1043 attached
+[20:54:21] INIT  process 1615 attached
+[20:54:21] SCAN  159.225.193.50 found
+[20:54:21] EXEC  module shadow.py loaded
+[20:54:21] WARN  unknown handshake
+[20:54:21] INFO  uptime 727h 56m
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  94%
-  network recon          ████████░░  87%
-  staying invisible      ████████░░  88%
-  trust no one           ████████░░  86%
-  python                 ████████░░  89%
-  existential dread      █████████░  90%
+  social engineering     █████████░  90%
+  network recon          ███████░░░  73%
+  staying invisible      █████████░  97%
+  trust no one           █████████░  98%
+  python                 █████████░  96%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-09-30 16:10 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-09-30 20:54 · auto-updated every 30 min</sub>
