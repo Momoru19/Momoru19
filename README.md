@@ -7,8 +7,8 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-10-10 20:55                     |
+  |   status  :  signal unstable                      |
+  |   updated :  2026-10-10 23:59                     |
   |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[20:55:03] SCAN  171.149.132.39 found
-[20:55:03] EXEC  module nullify.c loaded
-[20:55:03] INIT  process 4896 attached
-[20:55:03] WARN  signal noise +12dB
-[20:55:03] INFO  uptime 836h 22m
+[23:59:57] EXEC  module shadow.py loaded
+[23:59:57] WARN  signal noise +12dB
+[23:59:57] INFO  uptime 426h 32m
+[23:59:57] SCAN  130.119.120.37 found
+[23:59:57] INIT  process 9964 attached
 ```
 
 ---
 
 <div align="center">
 
-> "Give a man a bank and he can rob the world."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  84%
-  network recon          █████████░  90%
-  staying invisible      █████████░  93%
+  social engineering     █████████░  95%
+  network recon          ████████░░  83%
+  staying invisible      █████████░  95%
   trust no one           █████████░  92%
   python                 █████████░  91%
-  existential dread      █████████░  99%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-10-10 20:55 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-10-10 23:59 · auto-updated every 30 min</sub>
