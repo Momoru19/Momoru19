@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  network dark                         |
-  |   updated :  2026-10-14 01:17                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  system warming up                    |
+  |   updated :  2026-10-14 06:21                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[01:17:50] INIT  process 1829 attached
-[01:17:50] INFO  uptime 856h 16m
-[01:17:50] SCAN  250.194.12.207 found
-[01:17:50] WARN  anomaly detected
-[01:17:50] EXEC  module trace.go loaded
+[06:21:44] WARN  anomaly detected
+[06:21:44] SCAN  38.55.40.138 found
+[06:21:44] EXEC  module trace.go loaded
+[06:21:44] INIT  process 8172 attached
+[06:21:44] INFO  uptime 15h 53m
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  68%
-  network recon          ████████░░  84%
-  staying invisible      █████████░  96%
-  trust no one           █████████░  90%
-  python                 ███████░░░  78%
-  existential dread      █████████░  97%
+  social engineering     ███████░░░  72%
+  network recon          ███████░░░  74%
+  staying invisible      █████████░  92%
+  trust no one           ████████░░  88%
+  python                 █████████░  93%
+  existential dread      █████████░  93%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓▓▓▓ in the zone
+  mood      : ▓▓▓░░░░░░░ suspicious
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-10-14 01:17 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-10-14 06:21 · auto-updated every 30 min</sub>
