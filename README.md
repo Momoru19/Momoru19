@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  ghost mode: ON                       |
-  |   updated :  2026-11-01 01:41                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  system warming up                    |
+  |   updated :  2026-11-01 08:27                     |
+  |   origin  :  subnet 255.255.255.0                 |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[01:41:33] SCAN  55.131.0.125 found
-[01:41:33] WARN  unknown handshake
-[01:41:33] INIT  process 2573 attached
-[01:41:33] EXEC  module nullify.c loaded
-[01:41:33] INFO  uptime 792h 18m
+[08:27:02] INIT  process 7455 attached
+[08:27:02] SCAN  108.138.8.235 found
+[08:27:02] INFO  uptime 174h 1m
+[08:27:02] WARN  signal noise +12dB
+[08:27:02] EXEC  module nullify.c loaded
 ```
 
 ---
 
 <div align="center">
 
-> "People do not see what they choose not to see."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ███████░░░  70%
-  network recon          ███████░░░  78%
-  staying invisible      █████████░  96%
-  trust no one           █████████░  99%
-  python                 ████████░░  89%
-  existential dread      █████████░  95%
+  social engineering     ███████░░░  72%
+  network recon          ███████░░░  77%
+  staying invisible      █████████░  95%
+  trust no one           █████████░  91%
+  python                 █████████░  94%
+  existential dread      ██████████  100%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓░░░░░░░ suspicious
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-11-01 01:41 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-11-01 08:27 · auto-updated every 30 min</sub>
