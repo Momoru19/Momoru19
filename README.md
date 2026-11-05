@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  sleeping process detected            |
-  |   updated :  2026-11-05 04:23                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  surveillance mode                    |
+  |   updated :  2026-11-05 12:35                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[04:23:19] INIT  process 4180 attached
-[04:23:19] SCAN  167.106.173.163 found
-[04:23:19] EXEC  module trace.go loaded
-[04:23:19] WARN  anomaly detected
-[04:23:19] INFO  uptime 14h 28m
+[12:35:44] INIT  process 4129 attached
+[12:35:44] SCAN  201.126.220.146 found
+[12:35:44] WARN  packet loss 0.3%
+[12:35:44] INFO  uptime 700h 58m
+[12:35:44] EXEC  module trace.go loaded
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  98%
-  network recon          ████████░░  81%
-  staying invisible      █████████░  99%
-  trust no one           █████████░  99%
-  python                 ███████░░░  78%
-  existential dread      █████████░  90%
+  social engineering     ████████░░  86%
+  network recon          ███████░░░  79%
+  staying invisible      ████████░░  85%
+  trust no one           █████████░  95%
+  python                 ████████░░  89%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-11-05 04:23 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-11-05 12:35 · auto-updated every 30 min</sub>
