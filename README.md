@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-11-07 13:39                     |
-  |   origin  :  subnet 255.255.255.0                 |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-11-07 18:24                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[13:39:48] EXEC  module nullify.c loaded
-[13:39:48] WARN  signal noise +12dB
-[13:39:48] INIT  process 2519 attached
-[13:39:48] SCAN  143.5.247.150 found
-[13:39:48] INFO  uptime 697h 14m
+[18:24:07] INIT  process 5061 attached
+[18:24:07] INFO  uptime 323h 17m
+[18:24:07] EXEC  module trace.go loaded
+[18:24:07] SCAN  9.106.250.12 found
+[18:24:07] WARN  packet loss 0.3%
 ```
 
 ---
 
 <div align="center">
 
-> "Every hacker has a specific MO."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     █████████░  98%
-  network recon          ████████░░  81%
-  staying invisible      █████████░  94%
-  trust no one           ████████░░  86%
-  python                 ███████░░░  78%
-  existential dread      █████████░  92%
+  social engineering     ████████░░  80%
+  network recon          ████████░░  86%
+  staying invisible      ████████░░  89%
+  trust no one           █████████░  95%
+  python                 ███████░░░  77%
+  existential dread      █████████░  99%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-11-07 13:39 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-11-07 18:24 · auto-updated every 30 min</sub>
