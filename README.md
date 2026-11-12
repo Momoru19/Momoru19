@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  system warming up                    |
-  |   updated :  2026-11-12 10:28                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  data harvesting                      |
+  |   updated :  2026-11-12 18:30                     |
+  |   origin  :  somewhere between packets            |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[10:28:50] INIT  process 9503 attached
-[10:28:50] INFO  uptime 57h 57m
-[10:28:50] SCAN  90.161.91.203 found
-[10:28:50] WARN  unknown handshake
-[10:28:50] EXEC  module shadow.py loaded
+[18:30:01] EXEC  module recon.sh loaded
+[18:30:01] INIT  process 1999 attached
+[18:30:01] WARN  anomaly detected
+[18:30:01] INFO  uptime 594h 14m
+[18:30:01] SCAN  204.120.167.121 found
 ```
 
 ---
 
 <div align="center">
 
-> "Control is an illusion."
+> "Give a man a bank and he can rob the world."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  63%
-  network recon          █████████░  91%
-  staying invisible      █████████░  94%
-  trust no one           █████████░  92%
-  python                 █████████░  96%
-  existential dread      ██████████  100%
+  social engineering     █████████░  98%
+  network recon          ███████░░░  75%
+  staying invisible      █████████░  99%
+  trust no one           █████████░  93%
+  python                 ████████░░  83%
+  existential dread      █████████░  94%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-11-12 10:28 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-11-12 18:30 · auto-updated every 30 min</sub>
