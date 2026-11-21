@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  surveillance mode                    |
-  |   updated :  2026-11-21 17:43                     |
-  |   origin  :  coordinates: [REDACTED]              |
+  |   status  :  unknown entity detected              |
+  |   updated :  2026-11-21 22:36                     |
+  |   origin  :  your blind spot                      |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[17:43:55] INFO  uptime 422h 13m
-[17:43:55] EXEC  module shadow.py loaded
-[17:43:55] SCAN  230.95.153.74 found
-[17:43:55] WARN  unknown handshake
-[17:43:55] INIT  process 2113 attached
+[22:36:48] WARN  packet loss 0.3%
+[22:36:48] EXEC  module nullify.c loaded
+[22:36:48] INIT  process 3497 attached
+[22:36:48] SCAN  24.142.230.9 found
+[22:36:48] INFO  uptime 529h 1m
 ```
 
 ---
 
 <div align="center">
 
-> "Hello, friend."
+> "Is any of it real?"
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ██████░░░░  63%
-  network recon          ████████░░  85%
-  staying invisible      █████████░  95%
-  trust no one           ████████░░  87%
-  python                 █████████░  91%
-  existential dread      █████████░  91%
+  social engineering     ████████░░  81%
+  network recon          █████████░  93%
+  staying invisible      █████████░  99%
+  trust no one           █████████░  90%
+  python                 █████████░  97%
+  existential dread      █████████░  92%
 ```
 
 ---
@@ -56,7 +56,7 @@ operator:
   role      : unknown
   clearance : CLASSIFIED
   os        : does not matter, i own it
-  mood      : ▓▓▓▓▓▓▓░░░ focused
+  mood      : ▓▓▓▓▓░░░░░ paranoid
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-11-21 17:43 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-11-21 22:36 · auto-updated every 30 min</sub>
