@@ -7,9 +7,9 @@
   |                                                      |
   |        M O M O R U 1 9   O B S E R V E R            |
   |                                                      |
-  |   status  :  unknown entity detected              |
-  |   updated :  2026-11-21 22:36                     |
-  |   origin  :  your blind spot                      |
+  |   status  :  deep scan in progress                |
+  |   updated :  2026-11-22 02:45                     |
+  |   origin  :  coordinates: [REDACTED]              |
   |                                                      |
   +------------------------------------------------------+
 ```
@@ -20,18 +20,18 @@
 
 ```
 $ tail -f /var/log/momoru.log
-[22:36:48] WARN  packet loss 0.3%
-[22:36:48] EXEC  module nullify.c loaded
-[22:36:48] INIT  process 3497 attached
-[22:36:48] SCAN  24.142.230.9 found
-[22:36:48] INFO  uptime 529h 1m
+[02:45:05] EXEC  module nullify.c loaded
+[02:45:05] WARN  packet loss 0.3%
+[02:45:05] INIT  process 6029 attached
+[02:45:05] INFO  uptime 819h 51m
+[02:45:05] SCAN  103.185.209.243 found
 ```
 
 ---
 
 <div align="center">
 
-> "Is any of it real?"
+> "People do not see what they choose not to see."
 
 </div>
 
@@ -40,12 +40,12 @@ $ tail -f /var/log/momoru.log
 ```
  SKILL MATRIX
  -----------------------------------------------
-  social engineering     ████████░░  81%
-  network recon          █████████░  93%
+  social engineering     █████████░  97%
+  network recon          ███████░░░  71%
   staying invisible      █████████░  99%
-  trust no one           █████████░  90%
-  python                 █████████░  97%
-  existential dread      █████████░  92%
+  trust no one           ████████░░  87%
+  python                 █████████░  94%
+  existential dread      █████████░  95%
 ```
 
 ---
@@ -84,4 +84,4 @@ operator:
 
 </div>
 
-<sub align="right">last signal: 2026-11-21 22:36 · auto-updated every 30 min</sub>
+<sub align="right">last signal: 2026-11-22 02:45 · auto-updated every 30 min</sub>
